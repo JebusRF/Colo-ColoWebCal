@@ -2,14 +2,13 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//JebusRF Colo-Colo WebCal//
 BEGIN:VEVENT
-SUMMARY:Universidad de Chile vs Colo-Colo
-DTSTART:20260823T150000
-DTEND:20260823T170000
-UID:2026-08-23-1500-universidad-de-chile-vs-colo-colo@jebusrf
-DESCRIPTION:Club: Colo-Colo\n\nTorneo: Primera División\n\nEstadio: Estad
- io Nacional\, Santiago\n\nCalendario generado automáticamente por Colo-Co
- lo WebCal.\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
-LOCATION:Estadio Nacional\, Santiago
+SUMMARY:Colo Colo at Deportes Limache
+DTSTART:20260131T150000Z
+DTEND:20260131T170000Z
+UID:401850418@jebusrf
+DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio Elías Figueroa Brander\n
+ \nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
+LOCATION:Estadio Elías Figueroa Brander
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Partido de Colo-Colo en 24 horas
@@ -22,14 +21,13 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Colo-Colo vs Unión Española
-DTSTART:20260826T173000
-DTEND:20260826T193000
-UID:2026-08-26-1730-colo-colo-vs-unión-española@jebusrf
-DESCRIPTION:Club: Colo-Colo\n\nTorneo: Copa Chile\n\nEstadio: Estadio Monu
- mental\, Santiago\n\nCalendario generado automáticamente por Colo-Colo We
- bCal.\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
-LOCATION:Estadio Monumental\, Santiago
+SUMMARY:Everton CD at Colo Colo
+DTSTART:20260207T233000Z
+DTEND:20260208T013000Z
+UID:401850437@jebusrf
+DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio Monumental David Arellano
+ \n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
+LOCATION:Estadio Monumental David Arellano
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Partido de Colo-Colo en 24 horas
@@ -42,14 +40,13 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Colo-Colo vs Audax Italiano
-DTSTART:20260830T143000
-DTEND:20260830T163000
-UID:2026-08-30-1430-colo-colo-vs-audax-italiano@jebusrf
-DESCRIPTION:Club: Colo-Colo\n\nTorneo: Primera División\n\nEstadio: Estad
- io Monumental\, Santiago\n\nCalendario generado automáticamente por Colo-
- Colo WebCal.\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
-LOCATION:Estadio Monumental\, Santiago
+SUMMARY:Unión La Calera at Colo Colo
+DTSTART:20260215T233000Z
+DTEND:20260216T013000Z
+UID:401850445@jebusrf
+DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio Monumental David Arellano
+ \n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
+LOCATION:Estadio Monumental David Arellano
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Partido de Colo-Colo en 24 horas
@@ -62,14 +59,13 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Huachipato vs Colo-Colo
-DTSTART:20260906T130000
-DTEND:20260906T150000
-UID:2026-09-06-1300-huachipato-vs-colo-colo@jebusrf
-DESCRIPTION:Club: Colo-Colo\n\nTorneo: Primera División\n\nEstadio: Por c
- onfirmar\n\nCalendario generado automáticamente por Colo-Colo WebCal.\nht
- tps://jebusrf.github.io/Colo-ColoWebCal/\n
-LOCATION:Por confirmar
+SUMMARY:Colo Colo at O'Higgins
+DTSTART:20260221T210000Z
+DTEND:20260221T230000Z
+UID:401850467@jebusrf
+DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio El Teniente\n\nFuente: ESP
+ N Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
+LOCATION:Estadio El Teniente
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Partido de Colo-Colo en 24 horas
@@ -82,14 +78,13 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Colo-Colo vs Deportes Concepción
-DTSTART:20260913T133000
-DTEND:20260913T153000
-UID:2026-09-13-1330-colo-colo-vs-deportes-concepción@jebusrf
-DESCRIPTION:Club: Colo-Colo\n\nTorneo: Primera División\n\nEstadio: Estad
- io Monumental\, Santiago\n\nCalendario generado automáticamente por Colo-
- Colo WebCal.\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
-LOCATION:Estadio Monumental\, Santiago
+SUMMARY:Universidad de Chile at Colo Colo
+DTSTART:20260301T210000Z
+DTEND:20260301T230000Z
+UID:401850480@jebusrf
+DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio Monumental David Arellano
+ \n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
+LOCATION:Estadio Monumental David Arellano
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Partido de Colo-Colo en 24 horas
@@ -102,14 +97,13 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Coquimbo Unido vs Colo-Colo
-DTSTART:20261011T110000
-DTEND:20261011T130000
-UID:2026-10-11-1100-coquimbo-unido-vs-colo-colo@jebusrf
-DESCRIPTION:Club: Colo-Colo\n\nTorneo: Primera División\n\nEstadio: Por c
- onfirmar\n\nCalendario generado automáticamente por Colo-Colo WebCal.\nht
- tps://jebusrf.github.io/Colo-ColoWebCal/\n
-LOCATION:Por confirmar
+SUMMARY:Colo Colo at Audax Italiano
+DTSTART:20260307T210000Z
+DTEND:20260307T230000Z
+UID:401850499@jebusrf
+DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio Municipal de La Florida\n
+ \nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
+LOCATION:Estadio Municipal de La Florida
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Partido de Colo-Colo en 24 horas
@@ -122,14 +116,13 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Palestino vs Colo-Colo
-DTSTART:20261025T120000
-DTEND:20261025T140000
-UID:2026-10-25-1200-palestino-vs-colo-colo@jebusrf
-DESCRIPTION:Club: Colo-Colo\n\nTorneo: Primera División\n\nEstadio: Por c
- onfirmar\n\nCalendario generado automáticamente por Colo-Colo WebCal.\nht
- tps://jebusrf.github.io/Colo-ColoWebCal/\n
-LOCATION:Por confirmar
+SUMMARY:Huachipato at Colo Colo
+DTSTART:20260316T233000Z
+DTEND:20260317T013000Z
+UID:401850516@jebusrf
+DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio Monumental David Arellano
+ \n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
+LOCATION:Estadio Monumental David Arellano
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Partido de Colo-Colo en 24 horas
@@ -142,14 +135,14 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Colo-Colo vs Universidad de Concepción
-DTSTART:20261101T120000
-DTEND:20261101T140000
-UID:2026-11-01-1200-colo-colo-vs-universidad-de-concepción@jebusrf
-DESCRIPTION:Club: Colo-Colo\n\nTorneo: Primera División\n\nEstadio: Estad
- io Monumental\, Santiago\n\nCalendario generado automáticamente por Colo-
- Colo WebCal.\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
-LOCATION:Estadio Monumental\, Santiago
+SUMMARY:Colo Colo at Deportes Concepcion
+DTSTART:20260405T193000Z
+DTEND:20260405T213000Z
+UID:401850537@jebusrf
+DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio Municipal Alcaldesa Ester 
+ Roa Rebolledo\n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-C
+ oloWebCal/\n
+LOCATION:Estadio Municipal Alcaldesa Ester Roa Rebolledo
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Partido de Colo-Colo en 24 horas
@@ -162,14 +155,13 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Ñublense vs Colo-Colo
-DTSTART:20261108T120000
-DTEND:20261108T140000
-UID:2026-11-08-1200-ñublense-vs-colo-colo@jebusrf
-DESCRIPTION:Club: Colo-Colo\n\nTorneo: Primera División\n\nEstadio: Por c
- onfirmar\n\nCalendario generado automáticamente por Colo-Colo WebCal.\nht
- tps://jebusrf.github.io/Colo-ColoWebCal/\n
-LOCATION:Por confirmar
+SUMMARY:Palestino at Colo Colo
+DTSTART:20260419T223000Z
+DTEND:20260420T003000Z
+UID:401850549@jebusrf
+DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio Monumental David Arellano
+ \n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
+LOCATION:Estadio Monumental David Arellano
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Partido de Colo-Colo en 24 horas
@@ -182,14 +174,14 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Colo-Colo vs Universidad Católica
-DTSTART:20261122T120000
-DTEND:20261122T140000
-UID:2026-11-22-1200-colo-colo-vs-universidad-católica@jebusrf
-DESCRIPTION:Club: Colo-Colo\n\nTorneo: Primera División\n\nEstadio: Estad
- io Monumental\, Santiago\n\nCalendario generado automáticamente por Colo-
- Colo WebCal.\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
-LOCATION:Estadio Monumental\, Santiago
+SUMMARY:Colo Colo at Universidad de Concepción
+DTSTART:20260426T190000Z
+DTEND:20260426T210000Z
+UID:401850558@jebusrf
+DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio Municipal Alcaldesa Ester 
+ Roa Rebolledo\n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-C
+ oloWebCal/\n
+LOCATION:Estadio Municipal Alcaldesa Ester Roa Rebolledo
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Partido de Colo-Colo en 24 horas
@@ -202,14 +194,13 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Colo-Colo vs Deportes La Serena
-DTSTART:20261129T120000
-DTEND:20261129T140000
-UID:2026-11-29-1200-colo-colo-vs-deportes-la-serena@jebusrf
-DESCRIPTION:Club: Colo-Colo\n\nTorneo: Primera División\n\nEstadio: Estad
- io Monumental\, Santiago\n\nCalendario generado automáticamente por Colo-
- Colo WebCal.\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
-LOCATION:Estadio Monumental\, Santiago
+SUMMARY:Coquimbo Unido at Colo Colo
+DTSTART:20260503T213000Z
+DTEND:20260503T233000Z
+UID:401850545@jebusrf
+DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio Monumental David Arellano
+ \n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
+LOCATION:Estadio Monumental David Arellano
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Partido de Colo-Colo en 24 horas
@@ -222,14 +213,262 @@ TRIGGER:-PT2H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Cobresal vs Colo-Colo
-DTSTART:20261206T120000
-DTEND:20261206T140000
-UID:2026-12-06-1200-cobresal-vs-colo-colo@jebusrf
-DESCRIPTION:Club: Colo-Colo\n\nTorneo: Primera División\n\nEstadio: Por c
- onfirmar\n\nCalendario generado automáticamente por Colo-Colo WebCal.\nht
- tps://jebusrf.github.io/Colo-ColoWebCal/\n
-LOCATION:Por confirmar
+SUMMARY:Ñublense at Colo Colo
+DTSTART:20260517T213000Z
+DTEND:20260517T233000Z
+UID:401850565@jebusrf
+DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio Monumental David Arellano
+ \n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
+LOCATION:Estadio Monumental David Arellano
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Partido de Colo-Colo en 24 horas
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Partido de Colo-Colo en 2 horas
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Colo Colo at Universidad Católica
+DTSTART:20260524T220000Z
+DTEND:20260525T000000Z
+UID:401850579@jebusrf
+DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio San Carlos de Apoquindo\n
+ \nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
+LOCATION:Estadio San Carlos de Apoquindo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Partido de Colo-Colo en 24 horas
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Partido de Colo-Colo en 2 horas
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Colo Colo at La Serena
+DTSTART:20260530T190000Z
+DTEND:20260530T210000Z
+UID:401850586@jebusrf
+DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio La Portada\n\nFuente: ESPN
+  Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
+LOCATION:Estadio La Portada
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Partido de Colo-Colo en 24 horas
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Partido de Colo-Colo en 2 horas
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cobresal at Colo Colo
+DTSTART:20260613T213000Z
+DTEND:20260613T233000Z
+UID:401850589@jebusrf
+DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio Monumental David Arellano
+ \n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
+LOCATION:Estadio Monumental David Arellano
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Partido de Colo-Colo en 24 horas
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Partido de Colo-Colo en 2 horas
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Deportes Limache at Colo Colo
+DTSTART:20260725T003000Z
+DTEND:20260725T023000Z
+UID:401850597@jebusrf
+DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio Monumental David Arellano
+ \n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
+LOCATION:Estadio Monumental David Arellano
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Partido de Colo-Colo en 24 horas
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Partido de Colo-Colo en 2 horas
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Colo Colo at Everton CD
+DTSTART:20260801T190000Z
+DTEND:20260801T210000Z
+UID:401850610@jebusrf
+DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio Sausalito\n\nFuente: ESPN 
+ Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
+LOCATION:Estadio Sausalito
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Partido de Colo-Colo en 24 horas
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Partido de Colo-Colo en 2 horas
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Colo Colo at Unión La Calera
+DTSTART:20260809T213000Z
+DTEND:20260809T233000Z
+UID:401850619@jebusrf
+DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio Municipal Nicolás Chahuá
+ n\n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
+LOCATION:Estadio Municipal Nicolás Chahuán
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Partido de Colo-Colo en 24 horas
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Partido de Colo-Colo en 2 horas
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:O'Higgins at Colo Colo
+DTSTART:20260816T213000Z
+DTEND:20260816T233000Z
+UID:401850621@jebusrf
+DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio Monumental David Arellano
+ \n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
+LOCATION:Estadio Monumental David Arellano
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Partido de Colo-Colo en 24 horas
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Partido de Colo-Colo en 2 horas
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Colo Colo at Universidad de Chile
+DTSTART:20260823T190000Z
+DTEND:20260823T210000Z
+UID:401850630@jebusrf
+DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio Nacional Julio Martínez P
+ rádanos\n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWe
+ bCal/\n
+LOCATION:Estadio Nacional Julio Martínez Prádanos
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Partido de Colo-Colo en 24 horas
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Partido de Colo-Colo en 2 horas
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Audax Italiano at Colo Colo
+DTSTART:20260830T213000Z
+DTEND:20260830T233000Z
+UID:401850642@jebusrf
+DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio Monumental David Arellano
+ \n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
+LOCATION:Estadio Monumental David Arellano
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Partido de Colo-Colo en 24 horas
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Partido de Colo-Colo en 2 horas
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Colo Colo at Huachipato
+DTSTART:20260906T200000Z
+DTEND:20260906T220000Z
+UID:401850650@jebusrf
+DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio Municipal Alcaldesa Ester 
+ Roa Rebolledo\n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-C
+ oloWebCal/\n
+LOCATION:Estadio Municipal Alcaldesa Ester Roa Rebolledo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Partido de Colo-Colo en 24 horas
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Partido de Colo-Colo en 2 horas
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Deportes Concepcion at Colo Colo
+DTSTART:20260913T203000Z
+DTEND:20260913T223000Z
+UID:401850657@jebusrf
+DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio Monumental David Arellano
+ \n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
+LOCATION:Estadio Monumental David Arellano
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Partido de Colo-Colo en 24 horas
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Partido de Colo-Colo en 2 horas
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Colo Colo at Coquimbo Unido
+DTSTART:20261011T180000Z
+DTEND:20261011T200000Z
+UID:401850661@jebusrf
+DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio Francisco Sánchez Rumoros
+ o\n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
+LOCATION:Estadio Francisco Sánchez Rumoroso
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Partido de Colo-Colo en 24 horas
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Partido de Colo-Colo en 2 horas
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Colo Colo at Palestino
+DTSTART:20261025T180000Z
+DTEND:20261025T200000Z
+UID:401850672@jebusrf
+DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio Municipal de La Cisterna\n
+ \nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
+LOCATION:Estadio Municipal de La Cisterna
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Partido de Colo-Colo en 24 horas
