@@ -1,7 +1,7 @@
 import requests
 import json
 
-URL = "https://sports.core.api.espn.com/v2/sports/soccer/leagues/chi.1/seasons/2026/teams"
+URL = "https://sports.core.api.espn.com/v2/sports/soccer/leagues/chi.1/seasons/2026/teams/2688"
 
 respuesta = requests.get(
     URL,
@@ -13,6 +13,6 @@ respuesta = requests.get(
 
 print("STATUS:", respuesta.status_code)
 
-print("\n=== RESULTADO ===\n")
+print("\n=== COLO-COLO ===\n")
 
 print(json.dumps(respuesta.json(), indent=2))
