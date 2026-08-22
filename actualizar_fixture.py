@@ -85,4 +85,27 @@ def crear_calendario():
             uid = f"{partido['id']}@jebusrf"
 
             inicio = datetime.fromisoformat(
-                fecha.replace("Z"
+                fecha.replace("Z", "+00:00")
+            )
+
+            termino = inicio + timedelta(hours=2)
+
+            estadio = "Por confirmar"
+
+            try:
+                estadio = (
+                    partido["competitions"][0]
+                    ["venue"]
+                    ["fullName"]
+                )
+            except Exception:
+                pass
+
+            evento = Event()
+
+            evento.add("uid", uid)
+            evento.add("summary", titulo)
+            evento.add("location", estadio)
+
+            evento.add(
+            
