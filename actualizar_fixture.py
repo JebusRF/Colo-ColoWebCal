@@ -107,17 +107,14 @@ def crear_calendario():
             evento.add("summary", titulo)
             evento.add("location", estadio)
 
-            evento.add(
-                "description",
-                f"""Club: Colo-Colo
+            descripcion = "\n\n".join([
+                "Club: Colo-Colo",
+                f"Estadio: {estadio}",
+                "Fuente: ESPN Core API",
+                "https://jebusrf.github.io/Colo-ColoWebCal/"
+            ])
 
-Estadio: {estadio}
-
-Fuente: ESPN Core API
-
-https://jebusrf.github.io/Colo-ColoWebCal/
-"""
-            )
+            evento.add("description", descripcion)
 
             evento.add("dtstart", inicio)
             evento.add("dtend", termino)
