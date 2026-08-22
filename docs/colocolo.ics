@@ -7,7 +7,7 @@ DTSTART:20260131T150000Z
 DTEND:20260131T170000Z
 UID:401850418@jebusrf
 DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio Elías Figueroa Brander\n
- \nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/
+ \nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
 LOCATION:Estadio Elías Figueroa Brander
 END:VEVENT
 BEGIN:VEVENT
@@ -16,7 +16,7 @@ DTSTART:20260207T233000Z
 DTEND:20260208T013000Z
 UID:401850437@jebusrf
 DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio Monumental David Arellano
- \n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/
+ \n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
 LOCATION:Estadio Monumental David Arellano
 END:VEVENT
 BEGIN:VEVENT
@@ -25,7 +25,7 @@ DTSTART:20260215T233000Z
 DTEND:20260216T013000Z
 UID:401850445@jebusrf
 DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio Monumental David Arellano
- \n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/
+ \n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
 LOCATION:Estadio Monumental David Arellano
 END:VEVENT
 BEGIN:VEVENT
@@ -34,7 +34,7 @@ DTSTART:20260221T210000Z
 DTEND:20260221T230000Z
 UID:401850467@jebusrf
 DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio El Teniente\n\nFuente: ESP
- N Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/
+ N Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
 LOCATION:Estadio El Teniente
 END:VEVENT
 BEGIN:VEVENT
@@ -43,7 +43,7 @@ DTSTART:20260301T210000Z
 DTEND:20260301T230000Z
 UID:401850480@jebusrf
 DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio Monumental David Arellano
- \n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/
+ \n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
 LOCATION:Estadio Monumental David Arellano
 END:VEVENT
 BEGIN:VEVENT
@@ -52,7 +52,7 @@ DTSTART:20260307T210000Z
 DTEND:20260307T230000Z
 UID:401850499@jebusrf
 DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio Municipal de La Florida\n
- \nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/
+ \nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
 LOCATION:Estadio Municipal de La Florida
 END:VEVENT
 BEGIN:VEVENT
@@ -61,7 +61,7 @@ DTSTART:20260316T233000Z
 DTEND:20260317T013000Z
 UID:401850516@jebusrf
 DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio Monumental David Arellano
- \n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/
+ \n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
 LOCATION:Estadio Monumental David Arellano
 END:VEVENT
 BEGIN:VEVENT
@@ -71,7 +71,7 @@ DTEND:20260405T213000Z
 UID:401850537@jebusrf
 DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio Municipal Alcaldesa Ester 
  Roa Rebolledo\n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-C
- oloWebCal/
+ oloWebCal/\n
 LOCATION:Estadio Municipal Alcaldesa Ester Roa Rebolledo
 END:VEVENT
 BEGIN:VEVENT
@@ -80,7 +80,7 @@ DTSTART:20260419T223000Z
 DTEND:20260420T003000Z
 UID:401850549@jebusrf
 DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio Monumental David Arellano
- \n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/
+ \n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
 LOCATION:Estadio Monumental David Arellano
 END:VEVENT
 BEGIN:VEVENT
@@ -90,7 +90,7 @@ DTEND:20260426T210000Z
 UID:401850558@jebusrf
 DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio Municipal Alcaldesa Ester 
  Roa Rebolledo\n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-C
- oloWebCal/
+ oloWebCal/\n
 LOCATION:Estadio Municipal Alcaldesa Ester Roa Rebolledo
 END:VEVENT
 BEGIN:VEVENT
@@ -99,7 +99,7 @@ DTSTART:20260503T213000Z
 DTEND:20260503T233000Z
 UID:401850545@jebusrf
 DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio Monumental David Arellano
- \n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/
+ \n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
 LOCATION:Estadio Monumental David Arellano
 END:VEVENT
 BEGIN:VEVENT
@@ -108,7 +108,7 @@ DTSTART:20260517T213000Z
 DTEND:20260517T233000Z
 UID:401850565@jebusrf
 DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio Monumental David Arellano
- \n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/
+ \n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
 LOCATION:Estadio Monumental David Arellano
 END:VEVENT
 BEGIN:VEVENT
@@ -117,7 +117,7 @@ DTSTART:20260524T220000Z
 DTEND:20260525T000000Z
 UID:401850579@jebusrf
 DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio San Carlos de Apoquindo\n
- \nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/
+ \nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
 LOCATION:Estadio San Carlos de Apoquindo
 END:VEVENT
 BEGIN:VEVENT
@@ -126,7 +126,7 @@ DTSTART:20260530T190000Z
 DTEND:20260530T210000Z
 UID:401850586@jebusrf
 DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio La Portada\n\nFuente: ESPN
-  Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/
+  Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
 LOCATION:Estadio La Portada
 END:VEVENT
 BEGIN:VEVENT
@@ -135,7 +135,7 @@ DTSTART:20260613T213000Z
 DTEND:20260613T233000Z
 UID:401850589@jebusrf
 DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio Monumental David Arellano
- \n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/
+ \n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
 LOCATION:Estadio Monumental David Arellano
 END:VEVENT
 BEGIN:VEVENT
@@ -144,7 +144,7 @@ DTSTART:20260725T003000Z
 DTEND:20260725T023000Z
 UID:401850597@jebusrf
 DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio Monumental David Arellano
- \n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/
+ \n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
 LOCATION:Estadio Monumental David Arellano
 END:VEVENT
 BEGIN:VEVENT
@@ -153,7 +153,7 @@ DTSTART:20260801T190000Z
 DTEND:20260801T210000Z
 UID:401850610@jebusrf
 DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio Sausalito\n\nFuente: ESPN 
- Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/
+ Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
 LOCATION:Estadio Sausalito
 END:VEVENT
 BEGIN:VEVENT
@@ -162,7 +162,7 @@ DTSTART:20260809T213000Z
 DTEND:20260809T233000Z
 UID:401850619@jebusrf
 DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio Municipal Nicolás Chahuá
- n\n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/
+ n\n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
 LOCATION:Estadio Municipal Nicolás Chahuán
 END:VEVENT
 BEGIN:VEVENT
@@ -171,7 +171,7 @@ DTSTART:20260816T213000Z
 DTEND:20260816T233000Z
 UID:401850621@jebusrf
 DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio Monumental David Arellano
- \n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/
+ \n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
 LOCATION:Estadio Monumental David Arellano
 END:VEVENT
 BEGIN:VEVENT
@@ -181,7 +181,7 @@ DTEND:20260823T210000Z
 UID:401850630@jebusrf
 DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio Nacional Julio Martínez P
  rádanos\n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWe
- bCal/
+ bCal/\n
 LOCATION:Estadio Nacional Julio Martínez Prádanos
 END:VEVENT
 BEGIN:VEVENT
@@ -190,7 +190,7 @@ DTSTART:20260830T213000Z
 DTEND:20260830T233000Z
 UID:401850642@jebusrf
 DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio Monumental David Arellano
- \n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/
+ \n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
 LOCATION:Estadio Monumental David Arellano
 END:VEVENT
 BEGIN:VEVENT
@@ -200,7 +200,7 @@ DTEND:20260906T220000Z
 UID:401850650@jebusrf
 DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio Municipal Alcaldesa Ester 
  Roa Rebolledo\n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-C
- oloWebCal/
+ oloWebCal/\n
 LOCATION:Estadio Municipal Alcaldesa Ester Roa Rebolledo
 END:VEVENT
 BEGIN:VEVENT
@@ -209,7 +209,7 @@ DTSTART:20260913T203000Z
 DTEND:20260913T223000Z
 UID:401850657@jebusrf
 DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio Monumental David Arellano
- \n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/
+ \n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
 LOCATION:Estadio Monumental David Arellano
 END:VEVENT
 BEGIN:VEVENT
@@ -218,7 +218,7 @@ DTSTART:20261011T180000Z
 DTEND:20261011T200000Z
 UID:401850661@jebusrf
 DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio Francisco Sánchez Rumoros
- o\n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/
+ o\n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
 LOCATION:Estadio Francisco Sánchez Rumoroso
 END:VEVENT
 BEGIN:VEVENT
@@ -227,7 +227,7 @@ DTSTART:20261025T180000Z
 DTEND:20261025T200000Z
 UID:401850672@jebusrf
 DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio Municipal de La Cisterna\n
- \nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/
+ \nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
 LOCATION:Estadio Municipal de La Cisterna
 END:VEVENT
 BEGIN:VEVENT
@@ -236,7 +236,7 @@ DTSTART:20261101T200000Z
 DTEND:20261101T220000Z
 UID:401850681@jebusrf
 DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio Monumental David Arellano
- \n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/
+ \n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
 LOCATION:Estadio Monumental David Arellano
 END:VEVENT
 BEGIN:VEVENT
@@ -245,7 +245,7 @@ DTSTART:20261108T200000Z
 DTEND:20261108T220000Z
 UID:401850691@jebusrf
 DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio Municipal Oyarzún Arenas
- \n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/
+ \n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
 LOCATION:Estadio Municipal Oyarzún Arenas
 END:VEVENT
 BEGIN:VEVENT
@@ -254,7 +254,7 @@ DTSTART:20261122T200000Z
 DTEND:20261122T220000Z
 UID:401850693@jebusrf
 DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio Monumental David Arellano
- \n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/
+ \n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
 LOCATION:Estadio Monumental David Arellano
 END:VEVENT
 BEGIN:VEVENT
@@ -263,7 +263,7 @@ DTSTART:20261129T200000Z
 DTEND:20261129T220000Z
 UID:401850706@jebusrf
 DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio Monumental David Arellano
- \n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/
+ \n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
 LOCATION:Estadio Monumental David Arellano
 END:VEVENT
 BEGIN:VEVENT
@@ -272,7 +272,7 @@ DTSTART:20261206T200000Z
 DTEND:20261206T220000Z
 UID:401850708@jebusrf
 DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio El Cobre\n\nFuente: ESPN C
- ore API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/
+ ore API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
 LOCATION:Estadio El Cobre
 END:VEVENT
 END:VCALENDAR
