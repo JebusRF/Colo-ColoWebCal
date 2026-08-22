@@ -32,4 +32,3 @@ for fecha, titulo, estadio, torneo in PARTIDOS:
 
 with open("docs/colocolo.ics", "wb") as archivo:
     archivo.write(cal.to_ical())
-print("CALENDARIO GENERADO CORRECTAMENTE")
