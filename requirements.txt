@@ -1,4 +1,4 @@
-beautifulsoup4
-requests
-icalendar
-pytz
+beautifulsoup4>=4.13.0
+requests>=2.32.0
+icalendar>=6.3.0
+pytz>=2025.0
