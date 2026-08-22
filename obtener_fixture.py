@@ -1,7 +1,7 @@
 import requests
-from bs4 import BeautifulSoup
+import json
 
-URL = "https://www.espn.cl/futbol/equipo/calendario/_/id/2688/chi.1"
+URL = "https://site.api.espn.com/apis/site/v2/sports/soccer/chi.1/teams/2688"
 
 try:
 
@@ -15,9 +15,11 @@ try:
 
     print("STATUS:", respuesta.status_code)
 
-    print("\n--- PRIMEROS 1000 CARACTERES ---\n")
+    datos = respuesta.json()
 
-    print(respuesta.text[:1000])
+    print("\n=== JSON RECIBIDO ===\n")
+
+    print(json.dumps(datos, indent=2)[:5000])
 
 except Exception as error:
 
