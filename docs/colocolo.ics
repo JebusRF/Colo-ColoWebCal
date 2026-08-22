@@ -6,239 +6,32 @@ SUMMARY:Universidad de Chile vs Colo-Colo
 DTSTART:20260823T150000
 DTEND:20260823T170000
 UID:2026-08-23-1500-universidad-de-chile-vs-colo-colo@jebusrf
-DESCRIPTION:Club: Colo-Colo\n\nTorneo: Primera División\n\nEstadio: Estad
- io Nacional\, Santiago\n\nCalendario generado automáticamente por Colo-Co
- lo WebCal.\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
+DESCRIPTION:\nClub: Colo-Colo\n\nCompetición:\nPrimera División\n\nEstad
+ io:\nEstadio Nacional\, Santiago\n\nEstado:\nProgramado\n\nCómo verlo:\nP
+ or confirmar\n\nCalendario generado automáticamente por Colo-Colo WebCal.
+ \n\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
 LOCATION:Estadio Nacional\, Santiago
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Partido de Colo-Colo en 24 horas
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Partido de Colo-Colo en 2 horas
-TRIGGER:-PT2H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Colo-Colo vs Unión Española
 DTSTART:20260826T173000
 DTEND:20260826T193000
 UID:2026-08-26-1730-colo-colo-vs-unión-española@jebusrf
-DESCRIPTION:Club: Colo-Colo\n\nTorneo: Copa Chile\n\nEstadio: Estadio Monu
- mental\, Santiago\n\nCalendario generado automáticamente por Colo-Colo We
- bCal.\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
+DESCRIPTION:\nClub: Colo-Colo\n\nCompetición:\nCopa Chile\n\nEstadio:\nEs
+ tadio Monumental\, Santiago\n\nEstado:\nProgramado\n\nCómo verlo:\nPor co
+ nfirmar\n\nCalendario generado automáticamente por Colo-Colo WebCal.\n\nh
+ ttps://jebusrf.github.io/Colo-ColoWebCal/\n
 LOCATION:Estadio Monumental\, Santiago
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Partido de Colo-Colo en 24 horas
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Partido de Colo-Colo en 2 horas
-TRIGGER:-PT2H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Colo-Colo vs Audax Italiano
 DTSTART:20260830T143000
 DTEND:20260830T163000
 UID:2026-08-30-1430-colo-colo-vs-audax-italiano@jebusrf
-DESCRIPTION:Club: Colo-Colo\n\nTorneo: Primera División\n\nEstadio: Estad
- io Monumental\, Santiago\n\nCalendario generado automáticamente por Colo-
- Colo WebCal.\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
+DESCRIPTION:\nClub: Colo-Colo\n\nCompetición:\nPrimera División\n\nEstad
+ io:\nEstadio Monumental\, Santiago\n\nEstado:\nProgramado\n\nCómo verlo:
+ \nPor confirmar\n\nCalendario generado automáticamente por Colo-Colo WebC
+ al.\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
 LOCATION:Estadio Monumental\, Santiago
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Partido de Colo-Colo en 24 horas
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Partido de Colo-Colo en 2 horas
-TRIGGER:-PT2H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Huachipato vs Colo-Colo
-DTSTART:20260906T130000
-DTEND:20260906T150000
-UID:2026-09-06-1300-huachipato-vs-colo-colo@jebusrf
-DESCRIPTION:Club: Colo-Colo\n\nTorneo: Primera División\n\nEstadio: Por c
- onfirmar\n\nCalendario generado automáticamente por Colo-Colo WebCal.\nht
- tps://jebusrf.github.io/Colo-ColoWebCal/\n
-LOCATION:Por confirmar
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Partido de Colo-Colo en 24 horas
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Partido de Colo-Colo en 2 horas
-TRIGGER:-PT2H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Colo-Colo vs Deportes Concepción
-DTSTART:20260913T133000
-DTEND:20260913T153000
-UID:2026-09-13-1330-colo-colo-vs-deportes-concepción@jebusrf
-DESCRIPTION:Club: Colo-Colo\n\nTorneo: Primera División\n\nEstadio: Estad
- io Monumental\, Santiago\n\nCalendario generado automáticamente por Colo-
- Colo WebCal.\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
-LOCATION:Estadio Monumental\, Santiago
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Partido de Colo-Colo en 24 horas
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Partido de Colo-Colo en 2 horas
-TRIGGER:-PT2H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Coquimbo Unido vs Colo-Colo
-DTSTART:20261011T110000
-DTEND:20261011T130000
-UID:2026-10-11-1100-coquimbo-unido-vs-colo-colo@jebusrf
-DESCRIPTION:Club: Colo-Colo\n\nTorneo: Primera División\n\nEstadio: Por c
- onfirmar\n\nCalendario generado automáticamente por Colo-Colo WebCal.\nht
- tps://jebusrf.github.io/Colo-ColoWebCal/\n
-LOCATION:Por confirmar
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Partido de Colo-Colo en 24 horas
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Partido de Colo-Colo en 2 horas
-TRIGGER:-PT2H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Palestino vs Colo-Colo
-DTSTART:20261025T120000
-DTEND:20261025T140000
-UID:2026-10-25-1200-palestino-vs-colo-colo@jebusrf
-DESCRIPTION:Club: Colo-Colo\n\nTorneo: Primera División\n\nEstadio: Por c
- onfirmar\n\nCalendario generado automáticamente por Colo-Colo WebCal.\nht
- tps://jebusrf.github.io/Colo-ColoWebCal/\n
-LOCATION:Por confirmar
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Partido de Colo-Colo en 24 horas
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Partido de Colo-Colo en 2 horas
-TRIGGER:-PT2H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Colo-Colo vs Universidad de Concepción
-DTSTART:20261101T120000
-DTEND:20261101T140000
-UID:2026-11-01-1200-colo-colo-vs-universidad-de-concepción@jebusrf
-DESCRIPTION:Club: Colo-Colo\n\nTorneo: Primera División\n\nEstadio: Estad
- io Monumental\, Santiago\n\nCalendario generado automáticamente por Colo-
- Colo WebCal.\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
-LOCATION:Estadio Monumental\, Santiago
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Partido de Colo-Colo en 24 horas
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Partido de Colo-Colo en 2 horas
-TRIGGER:-PT2H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ñublense vs Colo-Colo
-DTSTART:20261108T120000
-DTEND:20261108T140000
-UID:2026-11-08-1200-ñublense-vs-colo-colo@jebusrf
-DESCRIPTION:Club: Colo-Colo\n\nTorneo: Primera División\n\nEstadio: Por c
- onfirmar\n\nCalendario generado automáticamente por Colo-Colo WebCal.\nht
- tps://jebusrf.github.io/Colo-ColoWebCal/\n
-LOCATION:Por confirmar
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Partido de Colo-Colo en 24 horas
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Partido de Colo-Colo en 2 horas
-TRIGGER:-PT2H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Colo-Colo vs Universidad Católica
-DTSTART:20261122T120000
-DTEND:20261122T140000
-UID:2026-11-22-1200-colo-colo-vs-universidad-católica@jebusrf
-DESCRIPTION:Club: Colo-Colo\n\nTorneo: Primera División\n\nEstadio: Estad
- io Monumental\, Santiago\n\nCalendario generado automáticamente por Colo-
- Colo WebCal.\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
-LOCATION:Estadio Monumental\, Santiago
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Partido de Colo-Colo en 24 horas
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Partido de Colo-Colo en 2 horas
-TRIGGER:-PT2H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Colo-Colo vs Deportes La Serena
-DTSTART:20261129T120000
-DTEND:20261129T140000
-UID:2026-11-29-1200-colo-colo-vs-deportes-la-serena@jebusrf
-DESCRIPTION:Club: Colo-Colo\n\nTorneo: Primera División\n\nEstadio: Estad
- io Monumental\, Santiago\n\nCalendario generado automáticamente por Colo-
- Colo WebCal.\nhttps://jebusrf.github.io/Colo-ColoWebCal/\n
-LOCATION:Estadio Monumental\, Santiago
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Partido de Colo-Colo en 24 horas
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Partido de Colo-Colo en 2 horas
-TRIGGER:-PT2H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Cobresal vs Colo-Colo
-DTSTART:20261206T120000
-DTEND:20261206T140000
-UID:2026-12-06-1200-cobresal-vs-colo-colo@jebusrf
-DESCRIPTION:Club: Colo-Colo\n\nTorneo: Primera División\n\nEstadio: Por c
- onfirmar\n\nCalendario generado automáticamente por Colo-Colo WebCal.\nht
- tps://jebusrf.github.io/Colo-ColoWebCal/\n
-LOCATION:Por confirmar
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Partido de Colo-Colo en 24 horas
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Partido de Colo-Colo en 2 horas
-TRIGGER:-PT2H
-END:VALARM
 END:VEVENT
 END:VCALENDAR
