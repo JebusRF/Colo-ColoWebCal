@@ -94,7 +94,9 @@ def crear_calendario():
 
             try:
                 estadio = (
-                    partido["competitions"][0]["venue"]["fullName"]
+                    partido["competitions"][0]
+                    ["venue"]
+                    ["fullName"]
                 )
             except Exception:
                 pass
@@ -105,17 +107,17 @@ def crear_calendario():
             evento.add("summary", titulo)
             evento.add("location", estadio)
 
-            descripcion = (
-                f"Club: Colo-Colo\r\n"
-                f"\r\n"
-                f"Estadio: {estadio}\r\n"
-                f"\r\n"
-                f"Fuente: ESPN Core API\r\n"
-                f"\r\n"
-                f"https://jebusrf.github.io/Colo-ColoWebCal/"
-            )
+            evento.add(
+                "description",
+                f"""Club: Colo-Colo
 
-            evento.add("description", descripcion)
+Estadio: {estadio}
+
+Fuente: ESPN Core API
+
+https://jebusrf.github.io/Colo-ColoWebCal/
+"""
+            )
 
             evento.add("dtstart", inicio)
             evento.add("dtend", termino)
