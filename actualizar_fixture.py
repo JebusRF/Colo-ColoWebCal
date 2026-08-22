@@ -1,4 +1,4 @@
-from icalendar import Calendar, Event, Alarm
+from icalendar import Calendar, Event
 from datetime import datetime, timedelta
 import requests
 
@@ -20,15 +20,15 @@ def obtener_eventos():
             f"seasons/2026/teams/2688/events?page={pagina}"
         )
 
-        r = requests.get(
+        respuesta = requests.get(
             url,
             headers=HEADERS,
             timeout=30
         )
 
-        r.raise_for_status()
+        respuesta.raise_for_status()
 
-        datos = r.json()
+        datos = respuesta.json()
 
         eventos.extend(
             item["$ref"]
@@ -47,35 +47,33 @@ def obtener_detalle_evento(url):
 
     url = url.replace("http://", "https://")
 
-    r = requests.get(
+    respuesta = requests.get(
         url,
         headers=HEADERS,
         timeout=30
     )
 
-    r.raise_for_status()
+    respuesta.raise_for_status()
 
-    return r.json()
+    return respuesta.json()
 
 
 def crear_calendario():
 
-    cal = Calendar()
+    calendario = Calendar()
 
-    cal.add(
+    calendario.add(
         "prodid",
         "-//JebusRF Colo-Colo WebCal//"
     )
 
-    cal.add("version", "2.0")
+    calendario.add("version", "2.0")
 
-    refs = obtener_eventos()
-
-    print(f"EVENTOS ENCONTRADOS: {len(refs)}")
+    eventos_ref = obtener_eventos()
 
     total = 0
 
-    for ref in refs:
+    for ref in eventos_ref:
 
         try:
 
@@ -83,16 +81,8 @@ def crear_calendario():
 
             fecha = partido["date"]
             titulo = partido["name"]
+
             uid = f"{partido['id']}@jebusrf"
 
             inicio = datetime.fromisoformat(
-                fecha.replace("Z", "+00:00")
-            )
-
-            termino = inicio + timedelta(hours=2)
-
-            estadio = "Por confirmar"
-
-            try:
-                estadio = (
-                    partido["
+                fecha.replace("Z"
