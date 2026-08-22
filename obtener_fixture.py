@@ -1,26 +1,29 @@
 import requests
-import json
 
-URL = "https://site.api.espn.com/apis/site/v2/sports/soccer/chi.1/teams/2688"
+URLS = [
+    "https://site.api.espn.com/apis/site/v2/sports/soccer",
+    "https://site.web.api.espn.com/apis/site/v2/sports/soccer",
+    "https://sports.core.api.espn.com/v2/sports/soccer"
+]
 
-try:
+for url in URLS:
 
-    respuesta = requests.get(
-        URL,
-        headers={
-            "User-Agent": "Mozilla/5.0"
-        },
-        timeout=30
-    )
+    try:
 
-    print("STATUS:", respuesta.status_code)
+        respuesta = requests.get(
+            url,
+            headers={
+                "User-Agent": "Mozilla/5.0"
+            },
+            timeout=30
+        )
 
-    datos = respuesta.json()
+        print("\n===================================")
+        print("URL:", url)
+        print("STATUS:", respuesta.status_code)
+        print("CONTENT-TYPE:", respuesta.headers.get("content-type"))
+        print("===================================\n")
 
-    print("\n=== JSON RECIBIDO ===\n")
+    except Exception as error:
 
-    print(json.dumps(datos, indent=2)[:5000])
-
-except Exception as error:
-
-    print("ERROR:", error)
+        print("ERROR:", url, error)
