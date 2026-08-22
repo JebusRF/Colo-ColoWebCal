@@ -1,7 +1,7 @@
 import requests
 import json
 
-URL = "https://sports.core.api.espn.com/v2/sports/soccer"
+URL = "https://sports.core.api.espn.com/v2/sports/soccer/leagues"
 
 respuesta = requests.get(
     URL,
@@ -15,6 +15,4 @@ print("STATUS:", respuesta.status_code)
 
 datos = respuesta.json()
 
-print("\n=== PRIMEROS 5000 CARACTERES ===\n")
-
-print(json.dumps(datos, indent=2)[:5000])
+print(json.dumps(datos, indent=2)[:8000])
