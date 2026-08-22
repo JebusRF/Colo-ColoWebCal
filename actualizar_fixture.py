@@ -9,34 +9,7 @@ PARTIDOS = [
      "Estadio Monumental, Santiago", "Copa Chile"),
 
     ("2026-08-30 14:30", "Colo-Colo vs Audax Italiano",
-     "Estadio Monumental, Santiago", "Primera División"),
-
-    ("2026-09-06 13:00", "Huachipato vs Colo-Colo",
-     "Por confirmar", "Primera División"),
-
-    ("2026-09-13 13:30", "Colo-Colo vs Deportes Concepción",
-     "Estadio Monumental, Santiago", "Primera División"),
-
-    ("2026-10-11 11:00", "Coquimbo Unido vs Colo-Colo",
-     "Por confirmar", "Primera División"),
-
-    ("2026-10-25 12:00", "Palestino vs Colo-Colo",
-     "Por confirmar", "Primera División"),
-
-    ("2026-11-01 12:00", "Colo-Colo vs Universidad de Concepción",
-     "Estadio Monumental, Santiago", "Primera División"),
-
-    ("2026-11-08 12:00", "Ñublense vs Colo-Colo",
-     "Por confirmar", "Primera División"),
-
-    ("2026-11-22 12:00", "Colo-Colo vs Universidad Católica",
-     "Estadio Monumental, Santiago", "Primera División"),
-
-    ("2026-11-29 12:00", "Colo-Colo vs Deportes La Serena",
-     "Estadio Monumental, Santiago", "Primera División"),
-
-    ("2026-12-06 12:00", "Cobresal vs Colo-Colo",
-     "Por confirmar", "Primera División")
+     "Estadio Monumental, Santiago", "Primera División")
 ]
 
 cal = Calendar()
