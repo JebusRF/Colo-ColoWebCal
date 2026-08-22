@@ -27,6 +27,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Probar obtención automática
+        run: |
+          python obtener_fixture.py
+
       - name: Generar calendario
         run: |
           python actualizar_fixture.py
