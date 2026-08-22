@@ -1,25 +1,61 @@
 from icalendar import Calendar, Event
 from datetime import datetime, timedelta
 
-cal = Calendar()
-cal.add("prodid", "-//Colo Colo WebCal//")
-cal.add("version", "2.0")
+PARTIDOS = [
+    ("2026-08-23 15:00", "Universidad de Chile vs Colo-Colo",
+     "Estadio Nacional, Santiago", "Primera División"),
 
-partidos = [
-    {
-        "titulo": "Colo-Colo vs Audax Italiano",
-        "inicio": datetime(2026, 8, 30, 14, 30),
-        "estadio": "Monumental David Arellano"
-    }
+    ("2026-08-26 17:30", "Colo-Colo vs Unión Española",
+     "Estadio Monumental, Santiago", "Copa Chile"),
+
+    ("2026-08-30 14:30", "Colo-Colo vs Audax Italiano",
+     "Estadio Monumental, Santiago", "Primera División"),
+
+    ("2026-09-06 13:00", "Huachipato vs Colo-Colo",
+     "Por confirmar", "Primera División"),
+
+    ("2026-09-13 13:30", "Colo-Colo vs Deportes Concepción",
+     "Estadio Monumental, Santiago", "Primera División"),
+
+    ("2026-10-11 11:00", "Coquimbo Unido vs Colo-Colo",
+     "Por confirmar", "Primera División"),
+
+    ("2026-10-25 12:00", "Palestino vs Colo-Colo",
+     "Por confirmar", "Primera División"),
+
+    ("2026-11-01 12:00", "Colo-Colo vs Universidad de Concepción",
+     "Estadio Monumental, Santiago", "Primera División"),
+
+    ("2026-11-08 12:00", "Ñublense vs Colo-Colo",
+     "Por confirmar", "Primera División"),
+
+    ("2026-11-22 12:00", "Colo-Colo vs Universidad Católica",
+     "Estadio Monumental, Santiago", "Primera División"),
+
+    ("2026-11-29 12:00", "Colo-Colo vs Deportes La Serena",
+     "Estadio Monumental, Santiago", "Primera División"),
+
+    ("2026-12-06 12:00", "Cobresal vs Colo-Colo",
+     "Por confirmar", "Primera División")
 ]
 
-for partido in partidos:
-    event = Event()
-    event.add("summary", partido["titulo"])
-    event.add("dtstart", partido["inicio"])
-    event.add("dtend", partido["inicio"] + timedelta(hours=2))
-    event.add("location", partido["estadio"])
-    cal.add_component(event)
+cal = Calendar()
+cal.add("prodid", "-//Colo Colo WebCal//JebusRF//")
+cal.add("version", "2.0")
 
-with open("docs/colocolo.ics", "wb") as f:
-    f.write(cal.to_ical())
+for fecha, titulo, estadio, torneo in PARTIDOS:
+
+    inicio = datetime.strptime(fecha, "%Y-%m-%d %H:%M")
+    fin = inicio + timedelta(hours=2)
+
+    evento = Event()
+    evento.add("summary", titulo)
+    evento.add("location", estadio)
+    evento.add("description", torneo)
+    evento.add("dtstart", inicio)
+    evento.add("dtend", fin)
+
+    cal.add_component(evento)
+
+with open("docs/colocolo.ics", "wb") as archivo:
+    archivo.write(cal.to_ical())
