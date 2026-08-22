@@ -5,15 +5,102 @@ BEGIN:VEVENT
 SUMMARY:Universidad de Chile vs Colo-Colo
 DTSTART:20260823T150000
 DTEND:20260823T170000
+UID:colocolo-2026-0@jebusrf
+DESCRIPTION:Torneo: Primera División\\nEstadio: Estadio Nacional\, Santia
+ go
+LOCATION:Estadio Nacional\, Santiago
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Colo-Colo vs Unión Española
 DTSTART:20260826T173000
 DTEND:20260826T193000
+UID:colocolo-2026-1@jebusrf
+DESCRIPTION:Torneo: Copa Chile\\nEstadio: Estadio Monumental\, Santiago
+LOCATION:Estadio Monumental\, Santiago
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Colo-Colo vs Audax Italiano
 DTSTART:20260830T143000
 DTEND:20260830T163000
+UID:colocolo-2026-2@jebusrf
+DESCRIPTION:Torneo: Primera División\\nEstadio: Estadio Monumental\, Sant
+ iago
+LOCATION:Estadio Monumental\, Santiago
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Huachipato vs Colo-Colo
+DTSTART:20260906T130000
+DTEND:20260906T150000
+UID:colocolo-2026-3@jebusrf
+DESCRIPTION:Torneo: Primera División\\nEstadio: Por confirmar
+LOCATION:Por confirmar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Colo-Colo vs Deportes Concepción
+DTSTART:20260913T133000
+DTEND:20260913T153000
+UID:colocolo-2026-4@jebusrf
+DESCRIPTION:Torneo: Primera División\\nEstadio: Estadio Monumental\, Sant
+ iago
+LOCATION:Estadio Monumental\, Santiago
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Coquimbo Unido vs Colo-Colo
+DTSTART:20261011T110000
+DTEND:20261011T130000
+UID:colocolo-2026-5@jebusrf
+DESCRIPTION:Torneo: Primera División\\nEstadio: Por confirmar
+LOCATION:Por confirmar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Palestino vs Colo-Colo
+DTSTART:20261025T120000
+DTEND:20261025T140000
+UID:colocolo-2026-6@jebusrf
+DESCRIPTION:Torneo: Primera División\\nEstadio: Por confirmar
+LOCATION:Por confirmar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Colo-Colo vs Universidad de Concepción
+DTSTART:20261101T120000
+DTEND:20261101T140000
+UID:colocolo-2026-7@jebusrf
+DESCRIPTION:Torneo: Primera División\\nEstadio: Estadio Monumental\, Sant
+ iago
+LOCATION:Estadio Monumental\, Santiago
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ñublense vs Colo-Colo
+DTSTART:20261108T120000
+DTEND:20261108T140000
+UID:colocolo-2026-8@jebusrf
+DESCRIPTION:Torneo: Primera División\\nEstadio: Por confirmar
+LOCATION:Por confirmar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Colo-Colo vs Universidad Católica
+DTSTART:20261122T120000
+DTEND:20261122T140000
+UID:colocolo-2026-9@jebusrf
+DESCRIPTION:Torneo: Primera División\\nEstadio: Estadio Monumental\, Sant
+ iago
+LOCATION:Estadio Monumental\, Santiago
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Colo-Colo vs Deportes La Serena
+DTSTART:20261129T120000
+DTEND:20261129T140000
+UID:colocolo-2026-10@jebusrf
+DESCRIPTION:Torneo: Primera División\\nEstadio: Estadio Monumental\, Sant
+ iago
+LOCATION:Estadio Monumental\, Santiago
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cobresal vs Colo-Colo
+DTSTART:20261206T120000
+DTEND:20261206T140000
+UID:colocolo-2026-11@jebusrf
+DESCRIPTION:Torneo: Primera División\\nEstadio: Por confirmar
+LOCATION:Por confirmar
 END:VEVENT
 END:VCALENDAR
