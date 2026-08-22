@@ -108,4 +108,35 @@ def crear_calendario():
             evento.add("location", estadio)
 
             evento.add(
-            
+                "description",
+                f"""Club: Colo-Colo
+
+Estadio: {estadio}
+
+Fuente: ESPN Core API
+
+https://jebusrf.github.io/Colo-ColoWebCal/
+"""
+            )
+
+            evento.add("dtstart", inicio)
+            evento.add("dtend", termino)
+
+            calendario.add_component(evento)
+
+            total += 1
+
+        except Exception as e:
+
+            print(f"ERROR EN EVENTO: {ref}")
+            print(e)
+
+    with open("docs/colocolo.ics", "wb") as archivo:
+        archivo.write(calendario.to_ical())
+
+    print("CALENDARIO GENERADO CORRECTAMENTE")
+    print(f"PARTIDOS GENERADOS: {total}")
+
+
+if __name__ == "__main__":
+    crear_calendario()
