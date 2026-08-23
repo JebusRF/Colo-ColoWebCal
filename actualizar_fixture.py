@@ -76,7 +76,13 @@ def crear_calendario():
 
             fecha = partido["date"]
 
-            titulo = partido["name"].replace(" at ", " vs ")
+            nombre = partido["name"]
+
+if " at " in nombre:
+    visitante, local = nombre.split(" at ")
+    titulo = f"{local} vs {visitante}"
+else:
+    titulo = nombre
 
             uid = f"{partido['id']}@jebusrf"
 
