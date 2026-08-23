@@ -3,7 +3,7 @@ import json
 
 url = (
     "https://sports.core.api.espn.com/v2/"
-    "sports/soccer/leagues/chi.copa_chi/"
+    "sports/soccer/leagues/fifa.friendly/"
     "seasons/2026/teams/2688/events"
 )
 
