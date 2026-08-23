@@ -1,7 +1,7 @@
 import requests
 import json
 
-url = "https://sports.core.api.espn.com/v2/sports/soccer/teams/2688"
+url = "https://sports.core.api.espn.com/v2/sports/soccer/leagues/chi.1/franchises/2688"
 
 r = requests.get(
     url,
