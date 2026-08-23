@@ -1,18 +1,21 @@
 import requests
-import json
 
-url = "https://sports.core.api.espn.com/v2/sports/soccer/leagues/chi.1"
+pruebas = [
+    "chi.copa_chile",
+    "chi.copachile",
+    "chi.copa",
+    "chi.cup",
+    "copa.chile"
+]
 
-r = requests.get(
-    url,
-    headers={
-        "User-Agent": "Mozilla/5.0"
-    },
-    timeout=30
-)
+for liga in pruebas:
 
-print("STATUS:", r.status_code)
+    url = f"https://sports.core.api.espn.com/v2/sports/soccer/leagues/{liga}"
 
-data = r.json()
+    r = requests.get(
+        url,
+        headers={"User-Agent": "Mozilla/5.0"},
+        timeout=30
+    )
 
-print(json.dumps(data, indent=2))
+    print(liga, "->", r.status_code)
