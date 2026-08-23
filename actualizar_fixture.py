@@ -6,19 +6,8 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0"
 }
 
-TORNEOS = [
-    "chi.1",
-    "chi.copa_chi",
-    "chi.super_cup",
-    "conmebol.libertadores",
-    "conmebol.sudamericana"
-]
 
-TEAM_ID = 2688
-SEASON = 2026
-
-
-def obtener_eventos_torneo(slug):
+def obtener_eventos():
 
     eventos = []
     pagina = 1
@@ -27,9 +16,8 @@ def obtener_eventos_torneo(slug):
 
         url = (
             "https://sports.core.api.espn.com/v2/"
-            f"sports/soccer/leagues/{slug}/"
-            f"seasons/{SEASON}/teams/{TEAM_ID}/events"
-            f"?page={pagina}"
+            "sports/soccer/leagues/chi.1/"
+            f"seasons/2026/teams/2688/events?page={pagina}"
         )
 
         respuesta = requests.get(
@@ -38,45 +26,21 @@ def obtener_eventos_torneo(slug):
             timeout=30
         )
 
-        if respuesta.status_code != 200:
-            print(f"TORNEO NO DISPONIBLE: {slug}")
-            break
+        respuesta.raise_for_status()
 
         datos = respuesta.json()
 
         eventos.extend(
             item["$ref"]
-            for item in datos.get("items", [])
+            for item in datos["items"]
         )
 
-        if pagina >= datos.get("pageCount", 1):
+        if pagina >= datos["pageCount"]:
             break
 
         pagina += 1
 
     return eventos
-
-
-def obtener_todos_los_eventos():
-
-    eventos_unicos = {}
-    resumen = {}
-
-    for torneo in TORNEOS:
-
-        refs = obtener_eventos_torneo(torneo)
-
-        resumen[torneo] = len(refs)
-
-        for ref in refs:
-            eventos_unicos[ref] = True
-
-    print("\nRESUMEN:")
-
-    for torneo, total in resumen.items():
-        print(f"{torneo}: {total}")
-
-    return list(eventos_unicos.keys())
 
 
 def obtener_detalle_evento(url):
@@ -108,24 +72,15 @@ def crear_calendario():
         "2.0"
     )
 
-    eventos_ref = obtener_todos_los_eventos()
+    eventos_ref = obtener_eventos()
 
     total = 0
-
-    eventos_agregados = set()
 
     for ref in eventos_ref:
 
         try:
 
             partido = obtener_detalle_evento(ref)
-
-            uid = f"{partido['id']}@jebusrf"
-
-            if uid in eventos_agregados:
-                continue
-
-            eventos_agregados.add(uid)
 
             fecha = partido["date"]
 
@@ -137,6 +92,8 @@ def crear_calendario():
             else:
                 titulo = nombre
 
+            uid = f"{partido['id']}@jebusrf"
+
             inicio = datetime.fromisoformat(
                 fecha.replace("Z", "+00:00")
             )
@@ -147,9 +104,7 @@ def crear_calendario():
 
             try:
                 estadio = (
-                    partido["competitions"][0]
-                    ["venue"]
-                    ["fullName"]
+                    partido["competitions"][0]["venue"]["fullName"]
                 )
             except Exception:
                 pass
@@ -178,4 +133,27 @@ def crear_calendario():
             evento.add("dtstart", inicio)
             evento.add("dtend", termino)
 
-            calendario.add_component
+            calendario.add_component(evento)
+
+            total += 1
+
+        except Exception as e:
+
+            print(f"ERROR EN EVENTO: {ref}")
+            print(e)
+
+    with open(
+        "docs/colocolo.ics",
+        "wb"
+    ) as archivo:
+
+        archivo.write(
+            calendario.to_ical()
+        )
+
+    print("CALENDARIO GENERADO CORRECTAMENTE")
+    print(f"PARTIDOS GENERADOS: {total}")
+
+
+if __name__ == "__main__":
+    crear_calendario()
