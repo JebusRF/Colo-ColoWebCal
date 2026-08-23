@@ -15,13 +15,10 @@ TORNEOS = [
     "fifa.friendly"
 ]
 
-TEAM_ID = 2688
-SEASON = 2026
-
 
 def obtener_eventos():
 
-    eventos = {}
+    eventos_unicos = {}
 
     for torneo in TORNEOS:
 
@@ -32,7 +29,7 @@ def obtener_eventos():
             url = (
                 "https://sports.core.api.espn.com/v2/"
                 f"sports/soccer/leagues/{torneo}/"
-                f"seasons/{SEASON}/teams/{TEAM_ID}/events"
+                f"seasons/2026/teams/2688/events"
                 f"?page={pagina}"
             )
 
@@ -48,14 +45,14 @@ def obtener_eventos():
             datos = respuesta.json()
 
             for item in datos.get("items", []):
-                eventos[item["$ref"]] = True
+                eventos_unicos[item["$ref"]] = True
 
             if pagina >= datos.get("pageCount", 1):
                 break
 
             pagina += 1
 
-    return list(eventos.keys())
+    return list(eventos_unicos.keys())
 
 
 def obtener_detalle_evento(url):
@@ -90,8 +87,7 @@ def crear_calendario():
     eventos_ref = obtener_eventos()
 
     total = 0
-
-    eventos_agregados = set()
+    uids_agregados = set()
 
     for ref in eventos_ref:
 
@@ -101,11 +97,83 @@ def crear_calendario():
 
             uid = f"{partido['id']}@jebusrf"
 
-            if uid in eventos_agregados:
+            if uid in uids_agregados:
                 continue
 
-            eventos_agregados.add(uid)
+            uids_agregados.add(uid)
 
             fecha = partido["date"]
 
-            nombre = partido
+            nombre = partido["name"]
+
+            if " at " in nombre:
+                visitante, local = nombre.split(" at ")
+                titulo = f"{local} vs {visitante}"
+            else:
+                titulo = nombre
+
+            inicio = datetime.fromisoformat(
+                fecha.replace("Z", "+00:00")
+            )
+
+            termino = inicio + timedelta(hours=2)
+
+            estadio = "Por confirmar"
+
+            try:
+                estadio = (
+                    partido["competitions"][0]
+                    ["venue"]
+                    ["fullName"]
+                )
+            except Exception:
+                pass
+
+            evento = Event()
+
+            evento.add("uid", uid)
+            evento.add("summary", titulo)
+            evento.add("location", estadio)
+
+            descripcion = (
+                f"Club: Colo-Colo\r\n"
+                f"\r\n"
+                f"Estadio: {estadio}\r\n"
+                f"\r\n"
+                f"Fuente: ESPN Core API\r\n"
+                f"\r\n"
+                f"https://jebusrf.github.io/Colo-ColoWebCal/"
+            )
+
+            evento.add(
+                "description",
+                descripcion
+            )
+
+            evento.add("dtstart", inicio)
+            evento.add("dtend", termino)
+
+            calendario.add_component(evento)
+
+            total += 1
+
+        except Exception as e:
+
+            print(f"ERROR EN EVENTO: {ref}")
+            print(e)
+
+    with open(
+        "docs/colocolo.ics",
+        "wb"
+    ) as archivo:
+
+        archivo.write(
+            calendario.to_ical()
+        )
+
+    print("CALENDARIO GENERADO CORRECTAMENTE")
+    print(f"PARTIDOS GENERADOS: {total}")
+
+
+if __name__ == "__main__":
+    crear_calendario()
