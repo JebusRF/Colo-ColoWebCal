@@ -1,19 +1,19 @@
 import requests
-import json
 
-url = "https://sports.core.api.espn.com/v2/sports/soccer/leagues/chi.cup"
+url = "https://sports.core.api.espn.com/v2/sports/soccer/leagues"
 
 r = requests.get(
     url,
-    headers={
-        "User-Agent": "Mozilla/5.0"
-    },
+    headers={"User-Agent": "Mozilla/5.0"},
     timeout=30
 )
 
+data = r.json()
+
 print("STATUS:", r.status_code)
 
-try:
-    print(json.dumps(r.json(), indent=2))
-except Exception:
-    print(r.text)
+for item in data["items"]:
+    ref = item["$ref"]
+
+    if "/chi" in ref.lower():
+        print(ref)
