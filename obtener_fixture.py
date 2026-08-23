@@ -1,7 +1,11 @@
 import requests
 import json
 
-url = "https://sports.core.api.espn.com/v2/sports/soccer/leagues/chi.copa_chi"
+url = (
+    "https://sports.core.api.espn.com/v2/"
+    "sports/soccer/leagues/chi.copa_chi/"
+    "seasons/2026/teams/2688/events"
+)
 
 r = requests.get(
     url,
@@ -12,4 +16,8 @@ r = requests.get(
 )
 
 print("STATUS:", r.status_code)
-print(json.dumps(r.json(), indent=2))
+
+try:
+    print(json.dumps(r.json(), indent=2))
+except Exception:
+    print(r.text)
