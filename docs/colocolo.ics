@@ -275,4 +275,59 @@ DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio El Cobre\n\nFuente: ESPN C
  ore API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/
 LOCATION:Estadio El Cobre
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Deportes Recoleta vs Colo Colo
+DTSTART:20260620T213000Z
+DTEND:20260620T233000Z
+UID:401871820@jebusrf
+DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio Santa Laura-Universidad SE
+ K\n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/
+LOCATION:Estadio Santa Laura-Universidad SEK
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Colo Colo vs O'Higgins
+DTSTART:20260625T233000Z
+DTEND:20260626T013000Z
+UID:401871857@jebusrf
+DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio Monumental David Arellano
+ \n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/
+LOCATION:Estadio Monumental David Arellano
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Unión Española vs Colo Colo
+DTSTART:20260629T233000Z
+DTEND:20260630T013000Z
+UID:401871874@jebusrf
+DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio Santa Laura-Universidad SE
+ K\n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/
+LOCATION:Estadio Santa Laura-Universidad SEK
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:O'Higgins vs Colo Colo
+DTSTART:20260703T003000Z
+DTEND:20260703T023000Z
+UID:401871882@jebusrf
+DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio El Teniente\n\nFuente: ESP
+ N Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/
+LOCATION:Estadio El Teniente
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Colo Colo vs Deportes Recoleta
+DTSTART:20260706T233000Z
+DTEND:20260707T013000Z
+UID:401871897@jebusrf
+DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio Monumental David Arellano
+ \n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/
+LOCATION:Estadio Monumental David Arellano
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Colo Colo vs Unión Española
+DTSTART:20260827T003000Z
+DTEND:20260827T023000Z
+UID:401881694@jebusrf
+DESCRIPTION:Club: Colo-Colo\n\nEstadio: Estadio Nacional Julio Martínez P
+ rádanos\n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWe
+ bCal/
+LOCATION:Estadio Nacional Julio Martínez Prádanos
+END:VEVENT
 END:VCALENDAR
