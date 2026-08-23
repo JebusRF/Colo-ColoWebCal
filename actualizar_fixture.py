@@ -45,14 +45,14 @@ def obtener_eventos():
             datos = respuesta.json()
 
             for item in datos.get("items", []):
-                eventos_unicos[item["$ref"]] = True
+                eventos_unicos[item["$ref"]] = torneo
 
             if pagina >= datos.get("pageCount", 1):
                 break
 
             pagina += 1
 
-    return list(eventos_unicos.keys())
+    return eventos_unicos
 
 
 def obtener_detalle_evento(url):
@@ -68,6 +68,20 @@ def obtener_detalle_evento(url):
     respuesta.raise_for_status()
 
     return respuesta.json()
+
+
+def obtener_nombre_torneo(slug):
+
+    nombres = {
+        "chi.1": "Primera División de Chile",
+        "chi.copa_chi": "Copa Chile",
+        "chi.super_cup": "Supercopa de Chile",
+        "conmebol.libertadores": "CONMEBOL Libertadores",
+        "conmebol.sudamericana": "CONMEBOL Sudamericana",
+        "fifa.friendly": "Amistoso"
+    }
+
+    return nombres.get(slug, slug)
 
 
 def crear_calendario():
@@ -89,7 +103,7 @@ def crear_calendario():
     total = 0
     uids_agregados = set()
 
-    for ref in eventos_ref:
+    for ref, torneo_slug in eventos_ref.items():
 
         try:
 
@@ -129,6 +143,8 @@ def crear_calendario():
             except Exception:
                 pass
 
+            torneo = obtener_nombre_torneo(torneo_slug)
+
             evento = Event()
 
             evento.add("uid", uid)
@@ -137,6 +153,8 @@ def crear_calendario():
 
             descripcion = (
                 f"Club: Colo-Colo\r\n"
+                f"\r\n"
+                f"Torneo: {torneo}\r\n"
                 f"\r\n"
                 f"Estadio: {estadio}\r\n"
                 f"\r\n"
