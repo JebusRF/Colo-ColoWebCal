@@ -1,13 +1,11 @@
 import requests
 import json
 
-url = "https://sports.core.api.espn.com/v2/sports/soccer/leagues/chi.1/teams/2688/seasons"
+url = "https://sports.core.api.espn.com/v2/sports/soccer/leagues"
 
 r = requests.get(
     url,
-    headers={
-        "User-Agent": "Mozilla/5.0"
-    },
+    headers={"User-Agent": "Mozilla/5.0"},
     timeout=30
 )
 
