@@ -64,4 +64,61 @@ def crear_calendario():
 
     calendario.add(
         "prodid",
-        "-//JebusRF
+        "-//JebusRF Colo-Colo WebCal//"
+    )
+
+    calendario.add("version", "2.0")
+
+    eventos_ref = obtener_eventos()
+
+    total = 0
+
+    for ref in eventos_ref:
+
+        try:
+
+            partido = obtener_detalle_evento(ref)
+
+            fecha = partido["date"]
+
+            titulo = (
+                partido["name"]
+                .replace(" at ", " vs ")
+            )
+
+            uid = f"{partido['id']}@jebusrf"
+
+            inicio = datetime.fromisoformat(
+                fecha.replace("Z", "+00:00")
+            )
+
+            termino = inicio + timedelta(hours=2)
+
+            estadio = "Por confirmar"
+
+            try:
+                estadio = (
+                    partido["competitions"][0]["venue"]["fullName"]
+                )
+            except Exception:
+                pass
+
+            evento = Event()
+
+            evento.add("uid", uid)
+            evento.add("summary", titulo)
+            evento.add("location", estadio)
+
+            descripcion = (
+                f"Club: Colo-Colo\r\n"
+                f"\r\n"
+                f"Estadio: {estadio}\r\n"
+                f"\r\n"
+                f"Fuente: ESPN Core API\r\n"
+                f"\r\n"
+                f"https://jebusrf.github.io/Colo-ColoWebCal/"
+            )
+
+            evento.add("description", descripcion)
+
+            evento.add("dtstart", inicio)
