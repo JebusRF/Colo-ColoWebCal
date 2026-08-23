@@ -61,8 +61,16 @@ def obtener_detalle_evento(url):
 def crear_calendario():
 
     calendario = Calendar()
-    calendario.add("prodid", "-//JebusRF Colo-Colo WebCal//")
-    calendario.add("version", "2.0")
+
+    calendario.add(
+        "prodid",
+        "-//JebusRF Colo-Colo WebCal//"
+    )
+
+    calendario.add(
+        "version",
+        "2.0"
+    )
 
     eventos_ref = obtener_eventos()
 
@@ -78,11 +86,11 @@ def crear_calendario():
 
             nombre = partido["name"]
 
-if " at " in nombre:
-    visitante, local = nombre.split(" at ")
-    titulo = f"{local} vs {visitante}"
-else:
-    titulo = nombre
+            if " at " in nombre:
+                visitante, local = nombre.split(" at ")
+                titulo = f"{local} vs {visitante}"
+            else:
+                titulo = nombre
 
             uid = f"{partido['id']}@jebusrf"
 
@@ -117,7 +125,10 @@ else:
                 f"https://jebusrf.github.io/Colo-ColoWebCal/"
             )
 
-            evento.add("description", descripcion)
+            evento.add(
+                "description",
+                descripcion
+            )
 
             evento.add("dtstart", inicio)
             evento.add("dtend", termino)
@@ -131,8 +142,14 @@ else:
             print(f"ERROR EN EVENTO: {ref}")
             print(e)
 
-    with open("docs/colocolo.ics", "wb") as archivo:
-        archivo.write(calendario.to_ical())
+    with open(
+        "docs/colocolo.ics",
+        "wb"
+    ) as archivo:
+
+        archivo.write(
+            calendario.to_ical()
+        )
 
     print("CALENDARIO GENERADO CORRECTAMENTE")
     print(f"PARTIDOS GENERADOS: {total}")
