@@ -1,23 +1,34 @@
 import requests
 import json
 
-url = (
-    "https://sports.core.api.espn.com/v2/"
-    "sports/soccer/leagues/fifa.friendly/"
-    "seasons/2026/teams/2688/events"
-)
+torneos = [
+    "chi.1",
+    "chi.copa_chi",
+    "chi.super_cup",
+    "conmebol.libertadores",
+    "conmebol.sudamericana"
+]
 
-r = requests.get(
-    url,
-    headers={
-        "User-Agent": "Mozilla/5.0"
-    },
-    timeout=30
-)
+for torneo in torneos:
 
-print("STATUS:", r.status_code)
+    url = (
+        f"https://sports.core.api.espn.com/v2/"
+        f"sports/soccer/leagues/{torneo}/"
+        f"seasons/2026/teams/2688/events"
+    )
 
-try:
-    print(json.dumps(r.json(), indent=2))
-except Exception:
-    print(r.text)
+    r = requests.get(
+        url,
+        headers={"User-Agent": "Mozilla/5.0"},
+        timeout=30
+    )
+
+    print("\n------------------")
+    print(torneo)
+    print("STATUS:", r.status_code)
+
+    try:
+        data = r.json()
+        print("COUNT:", data.get("count"))
+    except Exception:
+        print("SIN JSON")
