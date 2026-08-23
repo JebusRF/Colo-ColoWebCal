@@ -1,7 +1,7 @@
 import requests
 import json
 
-url = "https://sports.core.api.espn.com/v2/sports/soccer/leagues"
+url = "https://sports.core.api.espn.com/v2/sports/soccer/leagues?page=1"
 
 r = requests.get(
     url,
@@ -10,4 +10,10 @@ r = requests.get(
 )
 
 print("STATUS:", r.status_code)
-print(json.dumps(r.json(), indent=2))
+
+data = r.json()
+
+for item in data["items"]:
+    ref = item["$ref"]
+    if "chi" in ref.lower() or "conmebol" in ref.lower():
+        print(ref)
