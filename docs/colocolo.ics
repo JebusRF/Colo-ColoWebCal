@@ -361,4 +361,22 @@ DESCRIPTION:Club: Colo-Colo\n\nTorneo: Copa Chile\n\nEstadio: Estadio Naci
  .github.io/Colo-ColoWebCal/
 LOCATION:Estadio Nacional Julio Martínez Prádanos
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Audax Italiano vs Colo Colo
+DTSTART:20260922T233000Z
+DTEND:20260923T013000Z
+UID:401916349@jebusrf
+DESCRIPTION:Club: Colo-Colo\n\nTorneo: Copa Chile\n\nEstadio: Por confirma
+ r\n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/
+LOCATION:Por confirmar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Colo Colo vs Audax Italiano
+DTSTART:20260925T230000Z
+DTEND:20260926T010000Z
+UID:401916345@jebusrf
+DESCRIPTION:Club: Colo-Colo\n\nTorneo: Copa Chile\n\nEstadio: Por confirma
+ r\n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Colo-ColoWebCal/
+LOCATION:Por confirmar
+END:VEVENT
 END:VCALENDAR
