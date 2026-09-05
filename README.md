@@ -1,40 +1,133 @@
 # Colo-Colo WebCal ⚪⚫🏆
 
-Calendario automático de Colo-Colo para:
+Calendario automático de Colo-Colo para Apple Calendar, Google Calendar y Outlook.
 
-- Primera División
+Los partidos se obtienen automáticamente desde ESPN e incluyen:
+
+- Campeonato Nacional
 - Copa Chile
-- Libertadores
-- Sudamericana
-- Supercopa
-- Amistosos
+- Supercopa de Chile
+- CONMEBOL Libertadores
+- CONMEBOL Sudamericana
+- Amistosos (cuando estén disponibles)
 
-Compatible con:
+---
 
-- Apple Calendar
-- Google Calendar
-- Outlook
+# Suscribirse al calendario
 
-## Suscribirse
-
-### iPhone / iPad
+## 📱 iPhone / iPad (Apple Calendar)
 
 Abrir en Safari:
 
-webcal://...
+```text
+webcal://jebusrf.github.io/Colo-ColoWebCal/colocolo.ics
+```
 
-### Google Calendar
+También puedes utilizar:
 
-Agregar calendario desde URL:
+```text
+https://jebusrf.github.io/Colo-ColoWebCal/colocolo.ics
+```
 
-https://...
+---
 
-### Outlook
+## 🤖 Google Calendar
 
-Agregar calendario desde Internet:
+Desde un computador:
 
-https://...
+1. Abrir Google Calendar.
+2. Seleccionar **Agregar calendario**.
+3. Elegir **Desde URL**.
+4. Pegar:
 
-## Actualización
+```text
+https://jebusrf.github.io/Colo-ColoWebCal/colocolo.ics
+```
 
-El calendario se actualiza automáticamente desde ESPN.
+Una vez agregado, aparecerá automáticamente en tus dispositivos Android asociados a la misma cuenta Google.
+
+---
+
+## 💼 Outlook
+
+Agregar calendario desde Internet utilizando:
+
+```text
+https://jebusrf.github.io/Colo-ColoWebCal/colocolo.ics
+```
+
+---
+
+# Enlaces directos
+
+## WebCal
+
+```text
+webcal://jebusrf.github.io/Colo-ColoWebCal/colocolo.ics
+```
+
+## Descarga directa
+
+```text
+https://jebusrf.github.io/Colo-ColoWebCal/colocolo.ics
+```
+
+---
+
+# Características
+
+✅ Actualización automática
+
+✅ Compatible con Apple Calendar
+
+✅ Compatible con Google Calendar
+
+✅ Compatible con Outlook
+
+✅ Horarios actualizados automáticamente
+
+✅ Cambios de fixture reflejados automáticamente
+
+✅ Copa Chile integrada
+
+✅ Formato Local vs Visitante
+
+✅ Partidos organizados en un único calendario
+
+---
+
+# Estado del proyecto
+
+Versión actual: **V2**
+
+Incluye:
+
+- Primera División
+- Copa Chile
+
+Preparado para:
+
+- Supercopa de Chile
+- CONMEBOL Libertadores
+- CONMEBOL Sudamericana
+- Amistosos
+
+---
+
+# Proyecto
+
+Colo-Colo WebCal es un proyecto independiente creado para facilitar el seguimiento automático de los partidos de Colo-Colo desde cualquier aplicación de calendario compatible con el estándar iCalendar (.ics).
+
+No es un producto oficial de Colo-Colo, ANFP ni ESPN.
+
+---
+
+# Autor
+
+Desarrollado por Jesús Ramírez Fernández.
+
+GitHub:
+
+```text
+https://github.com/jebusrf/Colo-ColoWebCal
+```
