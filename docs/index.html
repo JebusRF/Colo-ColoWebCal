@@ -7,20 +7,22 @@
     <title>Colo-Colo WebCal</title>
 
     <style>
+
         * {
             box-sizing: border-box;
         }
 
         body {
             margin: 0;
-            background-color: #000000;
-            color: #ffffff;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: #000;
+            color: #fff;
+            font-family: -apple-system, BlinkMacSystemFont,
+                         "Segoe UI", Roboto, sans-serif;
         }
 
         .container {
             max-width: 900px;
-            margin: 0 auto;
+            margin: auto;
             padding: 40px 20px;
         }
 
@@ -31,7 +33,7 @@
 
         h1 {
             font-size: 3rem;
-            margin-bottom: 10px;
+            margin-bottom: 15px;
         }
 
         .red {
@@ -42,203 +44,210 @@
             color: #cccccc;
             font-size: 1.2rem;
             line-height: 1.7;
+            margin-bottom: 10px;
         }
 
-        .card {
-            background-color: #111111;
-            border: 1px solid #222222;
-            border-radius: 16px;
-            padding: 25px;
-            margin-bottom: 20px;
-        }
-
-        .card h2 {
-            margin-top: 0;
+        .hero-text {
+            color: #aaaaaa;
+            max-width: 650px;
+            margin: 0 auto 30px auto;
+            line-height: 1.8;
         }
 
         .button {
             display: inline-block;
-            background-color: #d60000;
-            color: white;
+            padding: 15px 28px;
+            border-radius: 12px;
             text-decoration: none;
-            padding: 14px 24px;
-            border-radius: 10px;
-            font-weight: bold;
-            margin-top: 12px;
+            font-weight: 600;
+            transition: 0.2s;
         }
 
-        .button:hover {
-            background-color: #ff2020;
+        .button-primary {
+            background: #d60000;
+            color: white;
         }
 
-        .url-box {
-            background-color: #1b1b1b;
-            padding: 15px;
-            border-radius: 10px;
-            word-break: break-all;
-            margin-top: 12px;
-            color: #dddddd;
+        .button-primary:hover {
+            background: #ff2a2a;
+        }
+
+        .button-paypal {
+            background: #0070ba;
+            color: white;
+        }
+
+        .button-paypal:hover {
+            background: #0088e0;
+        }
+
+        .section {
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        .section h2 {
+            margin-bottom: 20px;
         }
 
         .features {
+            max-width: 500px;
+            margin: auto;
+            text-align: left;
             line-height: 2;
+            color: #eeeeee;
+        }
+
+        .url-box {
+            margin-top: 15px;
+            background: #111;
+            border-radius: 12px;
+            padding: 15px;
+            color: #ddd;
+            word-break: break-all;
         }
 
         .footer {
             text-align: center;
-            color: #888888;
-            margin-top: 40px;
-            padding-bottom: 30px;
+            color: #777;
+            margin-top: 60px;
+            font-size: 0.9rem;
         }
 
-        .donation {
-            border: 1px solid #d60000;
+        hr {
+            border: 0;
+            border-top: 1px solid #222;
+            margin: 50px auto;
+            max-width: 700px;
         }
+
     </style>
 </head>
 
 <body>
 
-    <div class="container">
+<div class="container">
 
-        <div class="hero">
+    <div class="hero">
 
-            <h1>
-                ⚪⚫ Colo-Colo <span class="red">WebCal</span>
-            </h1>
+        <h1>
+            ⚪⚫ Colo-Colo <span class="red">WebCal</span>
+        </h1>
 
-            <p class="subtitle">
-                Todos los partidos de Colo-Colo directamente en tu calendario.<br>
-                Actualización automática desde ESPN.
-            </p>
-            <p class="subtitle">
-                Todos los partidos de Colo-Colo directamente en tu calendario.<br>
-                Actualización automática desde ESPN.
-            </p>
+        <p class="subtitle">
+            Todos los partidos de Colo-Colo directamente en tu calendario.
+        </p>
 
-            <p style="color:#ccc;margin-top:20px;">
-            Suscríbete una vez y recibe automáticamente los cambios de fixture,
-            horarios y nuevos partidos.
-            </p>
-            <a
-              class="button"
-              href="webcal://jebusrf.github.io/Colo-ColoWebCal/ple Calendar
-            </a>
-<div style="margin-top:20px;color:#999;font-size:0.9rem;">
-Compatible con Apple Calendar, Google Calendar y Outlook.
-</div>
-        </div>
+        <p class="hero-text">
+            Suscríbete una vez y recibe automáticamente cambios de horario,
+            modificaciones de fixture y nuevos partidos de Colo-Colo.
+        </p>
 
-        <div class="card">
-            <h2>✅ ¿Qué incluye?</h2>
+        <a class="button button-primary"
+           href="webcal://jebusrf.github.io/Colo-ColoWebCal/colocolo.ics">
+            🍎 Agregar a Apple Calendar
+        </a>
 
-            <div class="features">
-                ✅ Campeonato Nacional<br>
-                ✅ Copa Chile<br>
-                ✅ CONMEBOL Libertadores<br>
-                ✅ CONMEBOL Sudamericana<br>
-                ✅ Supercopa de Chile<br>
-                ✅ Amistosos (cuando existan)<br>
-                ✅ Actualización automática<br>
-                ✅ Cambios de fixture automáticos<br>
-                ✅ Compatible con Apple Calendar<br>
-                ✅ Compatible con Google Calendar<br>
-                ✅ Compatible con Outlook
-            </div>
-        </div>
-
-        <div class="card">
-
-            <h2>📅 Google Calendar</h2>
-
-            <p>
-                Desde un computador:
-            </p>
-
-            <ol>
-                <li>Abrir Google Calendar.</li>
-                <li>Seleccionar "Agregar calendario".</li>
-                <li>Elegir "Desde URL".</li>
-                <li>Pegar la siguiente dirección:</li>
-            </ol>
-
-            <div class="url-box">
-                https://jebusrf.github.io/Colo-ColoWebCal/colocolo.ics
-            </div>
-
-        </div>
-
-        <div class="card">
-
-            <h2>💼 Outlook</h2>
-
-            <p>
-                Agregar calendario desde Internet utilizando:
-            </p>
-
-            <div class="url-box">
-                https://jebusrf.github.io/Colo-ColoWebCal/colocolo.ics
-            </div>
-
-        </div>
-
-        <div class="card">
-
-            <h2>⬇️ Descarga directa</h2>
-
-            <p>
-                También puedes descargar el archivo ICS manualmente:
-            </p>
-
-            https://jebusrf.github.io/Colo-ColoWebCal/colocolo.ics
-                Descargar .ICS
-            </a>
-
-        </div>
-
-        <div class="card donation">
-
-            <h2>❤️ Apoya Colo-Colo WebCal</h2>
-
-            <p>
-                Este proyecto es gratuito.
-            </p>
-
-            <p>
-                Si te resulta útil, puedes colaborar con su mantenimiento mediante una donación.
-            </p>
-
-            <a class="button"
-                href="https://paypal.me/jrfdez/2"
-                target="_blank">
-                ☕ Donar con PayPal
-            </a>
-
-        </div>
-
-        <div class="card">
-
-            <h2>⚪⚫ El objetivo</h2>
-
-            <p>
-                Crear un calendario de Colo-Colo que se mantenga actualizado automáticamente temporada tras temporada.
-            </p>
-
-            <p>
-                Suscribirse una vez y olvidarse para siempre de agregar fixtures manualmente.
-            </p>
-
-        </div>
-
-        <div class="footer">
-
-            Colo-Colo WebCal es un proyecto independiente.<br>
-            No afiliado oficialmente a Colo-Colo, ANFP ni ESPN.
-
+        <div style="margin-top:20px;color:#999;">
+            Compatible con Apple Calendar, Google Calendar y Outlook.
         </div>
 
     </div>
 
-</body>
+    <hr>
 
+    <div class="section">
+
+        <h2>✅ ¿Qué incluye?</h2>
+
+        <div class="features">
+            ✅ Campeonato Nacional<br>
+            ✅ Copa Chile<br>
+            ✅ CONMEBOL Libertadores<br>
+            ✅ CONMEBOL Sudamericana<br>
+            ✅ Supercopa de Chile<br>
+            ✅ Amistosos (cuando existan)<br>
+            ✅ Actualización automática<br>
+            ✅ Cambios de fixture automáticos<br>
+        </div>
+
+    </div>
+
+    <hr>
+
+    <div class="section">
+
+        <h2>📅 Google Calendar</h2>
+
+        <p>
+            Desde un computador:
+            <br>
+            Google Calendar → Agregar calendario → Desde URL
+        </p>
+
+        <div class="url-box">
+            https://jebusrf.github.io/Colo-ColoWebCal/colocolo.ics
+        </div>
+
+    </div>
+
+    <div class="section">
+
+        <h2>💼 Outlook</h2>
+
+        <p>
+            Agregar calendario desde Internet utilizando:
+        </p>
+
+        <div class="url-box">
+            https://jebusrf.github.io/Colo-ColoWebCal/colocolo.ics
+        </div>
+
+    </div>
+
+    <hr>
+
+    <div class="section">
+
+        <h2>❤️ Apoya el proyecto</h2>
+
+        <p>
+            Si este calendario te resulta útil,
+            puedes colaborar con una donación.
+        </p>
+
+        <a class="button button-paypal"
+           href="https://paypal.me/jrfdez/2"
+           target="_blank">
+            ☕ Donar con PayPal
+        </a>
+
+    </div>
+
+    <hr>
+
+    <div class="section">
+
+        <h2>⚪⚫ El objetivo</h2>
+
+        <p>
+            Construir un calendario de Colo-Colo que se mantenga actualizado
+            automáticamente temporada tras temporada.
+        </p>
+
+        <p>
+            Suscribirse una vez y olvidarse para siempre
+            de agregar fixtures manualmente.
+        </p>
+
+    </div>
+
+    <div class="footer">
+        Colo-Colo WebCal es un proyecto independiente.<br>
+        No afiliado oficialmente a Colo-Colo, ANFP ni ESPN.
+    </div>
+
+</div>
+
+</body>
 </html>
