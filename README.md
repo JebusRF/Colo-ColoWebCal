@@ -1,13 +1,40 @@
-# Colo-Colo WebCal
+# Colo-Colo WebCal ⚪⚫🏆
 
-Calendario WebCal de Colo-Colo compatible con:
+Calendario automático de Colo-Colo para:
+
+- Primera División
+- Copa Chile
+- Libertadores
+- Sudamericana
+- Supercopa
+- Amistosos
+
+Compatible con:
 
 - Apple Calendar
 - Google Calendar
 - Outlook
 
-Actualización automática diaria.
+## Suscribirse
 
-Suscripción:
+### iPhone / iPad
+
+Abrir en Safari:
+
+webcal://...
+
+### Google Calendar
+
+Agregar calendario desde URL:
+
 https://...
-``
+
+### Outlook
+
+Agregar calendario desde Internet:
+
+https://...
+
+## Actualización
+
+El calendario se actualiza automáticamente desde ESPN.
