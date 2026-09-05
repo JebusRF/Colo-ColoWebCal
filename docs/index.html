@@ -1,259 +1,233 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colo-Colo WebCal</title>
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
 
-<title>Colo-Colo WebCal</title>
+        body {
+            margin: 0;
+            background-color: #000000;
+            color: #ffffff;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        }
 
-<style>
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
 
-*{
-    box-sizing:border-box;
-}
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+        }
 
-bo*y{
-    margin:0;
-    padding:0;
-  * background:#000;
-    color:#fff;
-*   font-family:-apple-system,Blink*acSystemFont,"Segoe UI",Roboto,san*-serif;
-}
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
 
-.container{
-    max-wid*h:1000px;
-    margin:auto;
-    pad*ing:40px 20px;
-}
+        .red {
+            color: #d60000;
+        }
 
-.hero{
-    text-*lign:center;
-    padding:60px 20px*
-}
+        .subtitle {
+            color: #cccccc;
+            font-size: 1.2rem;
+            line-height: 1.7;
+        }
 
-.hero h1{
-    font-size:3rem;
-*   margin:0;
-}
+        .card {
+            background-color: #111111;
+            border: 1px solid #222222;
+            border-radius: 16px;
+            padding: 25px;
+            margin-bottom: 20px;
+        }
 
-.red{
-    color:#d*0000;
-}
+        .card h2 {
+            margin-top: 0;
+        }
 
-.subtitle{
-    margin-top*20px;
-    color:#cccccc;
-    font-*ize:1.2rem;
-    line-height:1.6;
-}*
-.stats{
-    margin-top:30px;
-    *olor:#ffffff;
-    font-size:1.1rem*
-    line-height:1.8;
-}
+        .button {
+            display: inline-block;
+            background-color: #d60000;
+            color: white;
+            text-decoration: none;
+            padding: 14px 24px;
+            border-radius: 10px;
+            font-weight: bold;
+            margin-top: 12px;
+        }
 
-.card{
-  * background:#111;
-    border:1px s*lid #222;
-    border-radius:20px;
-*   padding:30px;
-    margin-bottom*25px;
-}
+        .button:hover {
+            background-color: #ff2020;
+        }
 
-.card h2{
-    margin-top:*;
-}
+        .url-box {
+            background-color: #1b1b1b;
+            padding: 15px;
+            border-radius: 10px;
+            word-break: break-all;
+            margin-top: 12px;
+            color: #dddddd;
+        }
 
-.button{
-    display:inline-b*ock;
-    margin-top:15px;
-    padd*ng:15px 25px;
-    background:#d800*0;
-    color:#fff;
-    text-decora*ion:none;
-    border-radius:12px;
-*   font-weight:bold;
-    transitio*:0.2s;
-}
+        .features {
+            line-height: 2;
+        }
 
-.button:hover{
-    backg*ound:#ff2222;
-}
+        .footer {
+            text-align: center;
+            color: #888888;
+            margin-top: 40px;
+            padding-bottom: 30px;
+        }
 
-.url-box{
-    bac*ground:#1a1a1a;
-    padding:15px;
-*   border-radius:12px;
-    margin-*op:15px;
-    word-break:break-all;*    color:#ddd;
-}
-
-.features{
-    *ine-height:2;
-}
-
-.footer{
-    text*align:center;
-    color:#888;
-    *argin-top:40px;
-    font-size:0.9r*m;
-}
-
-.donation{
-    border:1px so*id #d80000;
-}
-
-@media(max-width:76*px){
-
-    .hero h1{
-        font-s*ze:2.2rem;
-    }
-
-    .subtitle{
- *      font-size:1rem;
-    }
-
-}
-
-</*tyle>
-
+        .donation {
+            border: 1px solid #d60000;
+        }
+    </style>
 </head>
+
 <body>
 
-<div class=*container">
+    <div class="container">
 
-<div class="hero">
+        <div class="hero">
 
-<*1>
-⚪⚫ Colo-Colo <span class="red">*ebCal</span>
-</h1>
+            <h1>
+                ⚪⚫ Colo-Colo <span class="red">WebCal</span>
+            </h1>
 
-<div class="su*title">
-Todos los partidos de Colo*Colo directamente en tu calendario*<br>
-Actualización automática desd* ESPN.
-</div>
+            <p class="subtitle">
+                Todos los partidos de Colo-Colo directamente en tu calendario.<br>
+                Actualización automática desde ESPN.
+            </p>
 
-<div class="stats">*🏆 38 partidos disponibles actualm*nte<br>
-🔄 Actualización automátic*
-</div>
+            webcal://jebusrf.github.io/Colo-ColoWebCal/colocolo.ics
+                🍎 Agregar a Apple Calendar
+            </a>
 
-<a
-class="button"
-href="w*bcal://jebusrf.github.io/Colo-Colo*regar a Apple Calendar
-</a>
+        </div>
 
-</div>
+        <div class="card">
+            <h2>✅ ¿Qué incluye?</h2>
 
-<div class="card">
+            <div class="features">
+                ✅ Campeonato Nacional<br>
+                ✅ Copa Chile<br>
+                ✅ CONMEBOL Libertadores<br>
+                ✅ CONMEBOL Sudamericana<br>
+                ✅ Supercopa de Chile<br>
+                ✅ Amistosos (cuando existan)<br>
+                ✅ Actualización automática<br>
+                ✅ Cambios de fixture automáticos<br>
+                ✅ Compatible con Apple Calendar<br>
+                ✅ Compatible con Google Calendar<br>
+                ✅ Compatible con Outlook
+            </div>
+        </div>
 
-<h2>✅ ¿Qué incluye?</h2>
+        <div class="card">
 
-<div class="features">
+            <h2>📅 Google Calendar</h2>
 
-✅ Campeonato Nacional<br>
-✅ Copa Chile<br>
-✅ CONMEBOL Libertadores<br>
-✅ CONMEBOL Sudamericana<br>
-✅ Supercopa de Chile<br>
-✅ Amistosos (cuando existan)<br>
-✅ Actualización automática<br>
-✅ Horarios actualizados<br>
-✅ Compatible con Apple Calendar<br>
-✅ Compatible con Google Calendar<br>
-✅ Compatible con Outlook<br>
+            <p>
+                Desde un computador:
+            </p>
 
-</div>
+            <ol>
+                <li>Abrir Google Calendar.</li>
+                <li>Seleccionar "Agregar calendario".</li>
+                <li>Elegir "Desde URL".</li>
+                <li>Pegar la siguiente dirección:</li>
+            </ol>
 
-</div>
+            <div class="url-box">
+                https://jebusrf.github.io/Colo-ColoWebCal/colocolo.ics
+            </div>
 
-<div class="card">
+        </div>
 
-<h2>📅 Google Calendar</h2>
+        <div class="card">
 
-<p>
-Google Calendar requiere agregar el calendario desde un computador.
-</p>
+            <h2>💼 Outlook</h2>
 
-<p>
-Google Calendar → Agregar calendario → Desde URL
-</p>
+            <p>
+                Agregar calendario desde Internet utilizando:
+            </p>
 
-<div class="url-box">
-https://jebusrf.github.io/Colo-ColoWebCal/colocolo.ics
-</div>
+            <div class="url-box">
+                https://jebusrf.github.io/Colo-ColoWebCal/colocolo.ics
+            </div>
 
-</div>
+        </div>
 
-<div class="card">
+        <div class="card">
 
-<h2>💼 Outlook</h2>
+            <h2>⬇️ Descarga directa</h2>
 
-<p>
-Agregar calendario desde Internet usando:
-</p>
+            <p>
+                También puedes descargar el archivo ICS manualmente:
+            </p>
 
-<div class="url-box">
-https://jebusrf.github.io/Colo-ColoWebCal/colocolo.ics
-</div>
+            https://jebusrf.github.io/Colo-ColoWebCal/colocolo.ics
+                Descargar .ICS
+            </a>
 
-</div>
+        </div>
 
-<div class="card">
+        <div class="card donation">
 
-<h2>⬇️ Descarga directa del archivo ICS</h2>
+            <h2>❤️ Apoya Colo-Colo WebCal</h2>
 
-<p>
-Si prefieres descargar el archivo manualmente:
-</p>
+            <p>
+                Este proyecto es gratuito.
+            </p>
 
-https://jebusrf.github.io/Colo-ColoWebCal/colocolo.ics
-Descargar archivo .ics
-</a>
+            <p>
+                Si te resulta útil, puedes colaborar con su mantenimiento mediante una donación.
+            </p>
 
-</div>
+            <a class="button"
+                href="https://paypal.me/jrfdez/2"
+                target="_blank">
+                ☕ Donar con PayPal
+            </a>
 
-<div class="card donation">
+        </div>
 
-<h2>❤️ Apoya Colo-Colo WebCal</h2>
+        <div class="card">
 
-<p>
-Este calendario es completamente gratuito.
-</p>
+            <h2>⚪⚫ El objetivo</h2>
 
-<p>
-Si te resulta útil y quieres ayudar a mantener el proyecto, puedes realizar una donación.
-</p>
+            <p>
+                Crear un calendario de Colo-Colo que se mantenga actualizado automáticamente temporada tras temporada.
+            </p>
 
-https://paypal.me/jrfdez/2
-☕ Donar con PayPal
-</a>
+            <p>
+                Suscribirse una vez y olvidarse para siempre de agregar fixtures manualmente.
+            </p>
 
-</div>
+        </div>
 
-<div class="card">
+        <div class="footer">
 
-<h2>⚪⚫ El objetivo</h2>
+            Colo-Colo WebCal es un proyecto independiente.<br>
+            No afiliado oficialmente a Colo-Colo, ANFP ni ESPN.
 
-<p>
-Construir un calendario de Colo-Colo que se actualice automáticamente temporada tras temporada.
-</p>
+        </div>
 
-<p>
-Suscribirse una vez y olvidarse para siempre de agregar fixtures manualmente.
-</p>
-
-</div>
-
-<div class="footer">
-
-Colo-Colo WebCal es un proyecto independiente.
-No afiliado oficialmente a Colo-Colo, ANFP ni ESPN.
-
-</div>
-
-</div>
+    </div>
 
 </body>
+
 </html>
