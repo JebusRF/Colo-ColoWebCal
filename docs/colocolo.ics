@@ -381,4 +381,24 @@ DESCRIPTION:Club: Colo-Colo\n\nTorneo: Copa Chile\n\nEstadio: Estadio Naci
  .github.io/Colo-ColoWebCal/
 LOCATION:Estadio Nacional Julio Martínez Prádanos
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Puerto Montt vs Colo Colo
+DTSTART:20260929T210000Z
+DTEND:20260929T230000Z
+UID:401925566@jebusrf
+DESCRIPTION:Club: Colo-Colo\n\nTorneo: Copa Chile\n\nEstadio: Estadio Muni
+ cipal de Chinquihue\n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/
+ Colo-ColoWebCal/
+LOCATION:Estadio Municipal de Chinquihue
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Colo Colo vs Puerto Montt
+DTSTART:20261006T233000Z
+DTEND:20261007T013000Z
+UID:401925581@jebusrf
+DESCRIPTION:Club: Colo-Colo\n\nTorneo: Copa Chile\n\nEstadio: Estadio Monu
+ mental David Arellano\n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.i
+ o/Colo-ColoWebCal/
+LOCATION:Estadio Monumental David Arellano
+END:VEVENT
 END:VCALENDAR
