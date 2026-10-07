@@ -243,13 +243,13 @@ LOCATION:Estadio Francisco Sánchez Rumoroso
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Palestino vs Colo Colo
-DTSTART:20261025T180000Z
-DTEND:20261025T200000Z
+DTSTART:20261025T203000Z
+DTEND:20261025T223000Z
 UID:401850672@jebusrf
 DESCRIPTION:Club: Colo-Colo\n\nTorneo: Primera División de Chile\n\nEstad
- io: Estadio Municipal de La Cisterna\n\nFuente: ESPN Core API\n\nhttps://j
- ebusrf.github.io/Colo-ColoWebCal/
-LOCATION:Estadio Municipal de La Cisterna
+ io: Por confirmar\n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Co
+ lo-ColoWebCal/
+LOCATION:Por confirmar
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Colo Colo vs Universidad de Concepción
