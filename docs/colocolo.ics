@@ -247,9 +247,9 @@ DTSTART:20261025T203000Z
 DTEND:20261025T223000Z
 UID:401850672@jebusrf
 DESCRIPTION:Club: Colo-Colo\n\nTorneo: Primera División de Chile\n\nEstad
- io: Por confirmar\n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.io/Co
- lo-ColoWebCal/
-LOCATION:Por confirmar
+ io: Estadio Santa Laura-Universidad SEK\n\nFuente: ESPN Core API\n\nhttps:
+ //jebusrf.github.io/Colo-ColoWebCal/
+LOCATION:Estadio Santa Laura-Universidad SEK
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Colo Colo vs Universidad de Concepción
