@@ -253,8 +253,8 @@ LOCATION:Estadio Santa Laura-Universidad SEK
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Colo Colo vs Universidad de Concepción
-DTSTART:20261101T200000Z
-DTEND:20261101T220000Z
+DTSTART:20261030T220000Z
+DTEND:20261031T000000Z
 UID:401850681@jebusrf
 DESCRIPTION:Club: Colo-Colo\n\nTorneo: Primera División de Chile\n\nEstad
  io: Estadio Monumental David Arellano\n\nFuente: ESPN Core API\n\nhttps://
