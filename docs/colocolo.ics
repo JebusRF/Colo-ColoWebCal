@@ -393,8 +393,8 @@ LOCATION:Estadio Municipal de Chinquihue
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Colo Colo vs Puerto Montt
-DTSTART:20261020T210000Z
-DTEND:20261020T230000Z
+DTSTART:20261102T220000Z
+DTEND:20261103T000000Z
 UID:401925581@jebusrf
 DESCRIPTION:Club: Colo-Colo\n\nTorneo: Copa Chile\n\nEstadio: Estadio Monu
  mental David Arellano\n\nFuente: ESPN Core API\n\nhttps://jebusrf.github.i
