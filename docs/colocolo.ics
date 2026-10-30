@@ -263,8 +263,8 @@ LOCATION:Estadio Monumental David Arellano
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Ñublense vs Colo Colo
-DTSTART:20261108T200000Z
-DTEND:20261108T220000Z
+DTSTART:20261108T180000Z
+DTEND:20261108T200000Z
 UID:401850691@jebusrf
 DESCRIPTION:Club: Colo-Colo\n\nTorneo: Primera División de Chile\n\nEstad
  io: Estadio Municipal Oyarzún Arenas\n\nFuente: ESPN Core API\n\nhttps://
