@@ -273,8 +273,8 @@ LOCATION:Estadio Municipal Oyarzún Arenas
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Colo Colo vs Universidad Católica
-DTSTART:20261122T200000Z
-DTEND:20261122T220000Z
+DTSTART:20261122T210000Z
+DTEND:20261122T230000Z
 UID:401850693@jebusrf
 DESCRIPTION:Club: Colo-Colo\n\nTorneo: Primera División de Chile\n\nEstad
  io: Estadio Monumental David Arellano\n\nFuente: ESPN Core API\n\nhttps://
