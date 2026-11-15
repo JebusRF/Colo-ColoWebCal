@@ -283,8 +283,8 @@ LOCATION:Estadio Monumental David Arellano
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Colo Colo vs La Serena
-DTSTART:20261129T200000Z
-DTEND:20261129T220000Z
+DTSTART:20261128T233000Z
+DTEND:20261129T013000Z
 UID:401850706@jebusrf
 DESCRIPTION:Club: Colo-Colo\n\nTorneo: Primera División de Chile\n\nEstad
  io: Estadio Monumental David Arellano\n\nFuente: ESPN Core API\n\nhttps://
